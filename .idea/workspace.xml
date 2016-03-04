@@ -74,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/cronut.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.259366">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <caret line="5" column="91" selection-start-line="5" selection-start-column="91" selection-end-line="5" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -629,7 +629,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457093982761</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="testing css">
+      <created>1457094130595</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1457094130595</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -702,7 +708,8 @@
     <MESSAGE value="header and footer included to all the files from external html files except for tips&amp;råd page" />
     <MESSAGE value="cronut.html added" />
     <MESSAGE value="cronut.html ingredients working" />
-    <option name="LAST_COMMIT_MESSAGE" value="cronut.html ingredients working" />
+    <MESSAGE value="testing css" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -914,7 +921,7 @@
     <entry file="file://$PROJECT_DIR$/src/cronut.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.259366">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <caret line="5" column="91" selection-start-line="5" selection-start-column="91" selection-end-line="5" selection-end-column="91" />
           <folding />
         </state>
       </provider>
