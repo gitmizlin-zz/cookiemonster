@@ -1,18 +1,19 @@
 var portions;
 var myPoint = 0;
 var isRated = false;
-var n;
+var pageNr;
+
 $('#votes').text(getLocalStorage("key2"));
 $('#average').text(getLocalStorage("key3"));
 
-function changePortion(n) {
+function changePortion(pageNr) {
 	portions = document.getElementById("quantity").value;
 	setLocalStorage("key1", portions);
-	displayPortion(n);
+	displayPortion(pageNr);
 }
 
-function displayPortion(n) {
-	console.log("n = " + n);
+function displayPortion(pageNr) {
+	console.log("page number = " + pageNr);
 	portions = getLocalStorage("key1");
 	displaySlider();
 	var text = "person";
@@ -23,20 +24,20 @@ function displayPortion(n) {
 	}
 	document.getElementById("selectedPortion").innerHTML = "for " + portions + " " + text;
 
-	if (n == 1) {
+	if (pageNr == 1) {
 		eggYolk();
 		milk();
 		sugar();
 		cream();
 		vanilla();
-	} else if (n == 2) {
+	} else if (pageNr == 2) {
 		eggScones();
 		flourScones();
 		bpScones();
 		saltScones();
 		butterScones();
 		milkScones();
-	} else if (n == 3) {
+	} else if (pageNr == 3) {
 		yeastCronut();
 		waterCronut();
 		saltCronut();
@@ -48,7 +49,7 @@ function displayPortion(n) {
 		nutmeg();
 		flourCronut();
 		euButter();
-	} else if (n == 4) {
+	} else if (pageNr == 4) {
 		eggWhite();
 		kakao();
 		stroSocker();
@@ -58,6 +59,16 @@ function displayPortion(n) {
 		graddeVl();
 		sockerVl();
 		smorVl();
+	} else if (pageNr == 5) {
+		console.log("tigerkaka");
+		butterTk();
+		sockerTk();
+		eggTk();
+		flourTk();
+		bpTk();
+		saltTk();
+		 milkTk();
+		 kakaoTk();
 	}
 }
 
@@ -261,6 +272,40 @@ function sockerVl() {
 }
 function smorVl() {
 	document.getElementById("smor_vl").innerHTML = 100 * portions + " g rumsvarmt smör";
+}
+
+// tigerkaka
+
+function butterTk() {
+	document.getElementById("smor_tk").innerHTML = 200 * portions + " g smör";
+}
+
+function sockerTk() {
+	document.getElementById("socker_tk").innerHTML = portions + " dl strösocker";
+}
+
+function eggTk() {
+	document.getElementById("egg_tk").innerHTML = 3 * portions + " ägg";
+}
+
+function flourTk() {
+	document.getElementById("flour_tk").innerHTML = 4 * portions + " dl vetemjöl";
+}
+
+function bpTk() {
+	document.getElementById("bp_tk").innerHTML = portions + " tsk bakpulver";
+}
+
+function saltTk() {
+	document.getElementById("salt_tk").innerHTML = portions + " krm salt";
+}
+
+function milkTk() {
+	document.getElementById("milk_tk").innerHTML = 4 * portions + " dl mjölk eller grädde";
+}
+
+function kakaoTk() {
+	document.getElementById("kakao_tk").innerHTML = 2 * portions + " msk kakao";
 }
 
 var myUrl = "";
