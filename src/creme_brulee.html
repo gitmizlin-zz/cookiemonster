@@ -11,18 +11,18 @@
 <div id="header"></div>
 <main>
     <div class="info-box">
-        <h1>Crème brûlée</h1>
+        <h1>Cronut</h1>
     </div>
     <section id="recipe_above">
         <figure>
-            <img src="img/creme_brulee_recipe_page/cb2.jpg" alt="crème brûlée">
-            <h2>Rate crème brûlée</h2>
+            <img src="img/cronut_recipe_page/cb2.jpg" alt="cronut">
+            <h2>Rate cronut</h2>
             <form class="ratingForm">
                 <input class="stars" type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Meh!"></label>
                 <input class="stars" type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Kinda ok"></label>
                 <input class="stars" type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Yeah sure"></label>
                 <input class="stars" type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Pretty good"></label>
-                <input class="stars" type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Creme brûlée rocks!"></label>
+                <input class="stars" type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Cronut rocks!"></label>
             </form>
             <p class="ratingForm">My rating: <span id="myRating"></span></p>
             <p class="ratingForm">Votes: <span id="votes"></span></p>
@@ -30,14 +30,20 @@
         </figure>
         <h2>Ingredients</h2>
         <p id="select_a_portion">Select a portion </p>
-        <input id="quantity" type="range" min="1" max="8" step="1" onload="displaySlider()" oninput="changePortion()">
+        <input id="quantity" type="range" min="1" max="8" step="1" onload="displaySlider(); changePortion(3)" oninput="changePortion(3)">
         <p id="selectedPortion"></p>
         <ul id="ingredients">
-            <li id="egg_yolk"></li>
-            <li id="milk"></li>
-            <li id="sugar"></li>
-            <li id="heavy_cream"></li>
-            <li id="vanilla_pod"></li>
+            <li id="yeast"></li>
+            <li id="water"></li>
+            <li id="salt_cronut"></li>
+            <li id="sugar_cronut"></li>
+            <li id="milk_cronut"></li>'
+            <li id="melted_butter"></li>
+            <li id="vanilla_extract"></li>
+            <li id="egg_cronut"></li>
+            <li id="nutmeg"></li>
+            <li id="all-purpose flour"></li>
+            <li id="eropean_butter "></li>
         </ul>
     </section>
 
@@ -45,33 +51,64 @@
     <ol id="method">
         <li>
             <p>
-                Preheat the oven to 160 degrees C.
-                Place the cream, vanilla bean and its pulp into a medium saucepan set over medium-high heat and
-                bring to a boil. Remove from the heat, cover and allow to sit for 15 minutes. Remove the vanilla bean
-                and reserve for another use.
+                Place 0.25 ounce yeast into the mixing bowl of a large stand mixer.
+                Whisk in 0.5 cup warm water and let stand until a creamy foam forms on top,
+                about 5 minutes. Add 0.5 teaspoon salt, 2.5 tablespoons sugar, 0.5 cup milk,
+                2 tablespoons melted butter, 1 teaspoon vanilla extract, 1 large egg, and
+                0.125 teaspoon nutmeg. Whisk mixture thoroughly. Pour 1 pound flour on top of
+                liquid ingredients. Place mixing bowl onto mixer.
             </p>
         </li>
         <li>
             <p>
-                In a medium bowl, whisk together a half of the sugar and the egg yolks until well blended and it
-                just starts to lighten in color. Add the cream a little at a time, stirring continually. Pour the
-                liquid into 200-250 ml ramekins.
+                Attach dough hook to mixer and knead on low speed until dough comes together in a ball and becomes soft
+                and sticky, about 3 minutes. Dough will stick to the hook and pull away from the
+                side of the bowl.
             </p>
         </li>
         <li>
             <p>
-                Place the ramekins into a large cake pan or roasting pan. Pour enough hot water into the pan to
-                come halfway up the sides of the ramekins. Bake just until the creme brulee is set, but still trembling
-                in the center, approximately 40 to 45 minutes. Remove the ramekins from the roasting pan and refrigerate
-                for at least 2 hours and up to 3 days.
+                Transfer dough to a floured work surface, knead 2 or 3 times, and shape into a ball.
+                Wrap dough in plastic and refrigerate for 20 minutes to let gluten relax.
             </p>
         </li>
         <li>
             <p>
-                Remove the creme brulee from the refrigerator for at least 30 minutes prior to browning the sugar on top.
-                Divide the remaining sugar equally among the dishes and spread evenly on top. Using
-                a torch, melt the sugar and form a crispy top. Allow the creme brulee to sit for at least 5 minutes
-                before serving.
+                Remove dough from refrigerator, unwrap, and dust lightly with flour. Roll out into a
+                9x18-inch rectangle about 1/4 inch thick. Evenly spread 6 tablespoons softened
+                unsalted butter onto the middle third of the dough. Fold one unbuttered third over
+                the buttered third and press lightly; spread remaining 6 tablespoons of unsalted
+                button on top of that third. Fold remaining third over the first (buttered) third.
+                Transfer dough onto a sheet pan, cover lightly with plastic wrap and a kitchen towel,
+                and refrigerate 20 to 30 more minutes for butter to become firm. Sprinkle dough
+                lightly with flour as you work if it becomes sticky.
+            </p>
+        </li>
+        <li>
+            <p>
+                Return dough to floured work surface and pat very gently into an 8x14 rectangle about 1/2-inch thick.
+                Fold outer thirds over center third as before; roll out into an 8x14-inch rectangle again.
+                Keep edges of rectangle as straight as possible. Fold in thirds as before. Cover dough lightly
+                with a kitchen towel, and refrigerate for 2 hours.
+            </p>
+        </li>
+        <li>
+            <p>
+                Roll the dough out to about 3/8 inch thick. Cut dough in half crosswise. Leave half on a lightly
+                floured work surface; refrigerate other half of dough until needed.
+            </p>
+        </li>
+        <li>
+            <p>
+                Use a sharp 3-inch circular cutter to cut 8 circles of dough from piece on the work surface. Use
+                1-inch size cutter to cut the donut holes out of the dough circles.
+            </p>
+        </li>
+        <li>
+            <p>
+                Line a baking sheet with waxed paper and sprinkle lightly with flour. Arrange
+                cronuts and holes onto prepared baking sheet. Let rise in a draft-free, warm place
+                (such as an unheated oven) until doubled in size, about 1 hour.
             </p>
         </li>
     </ol>

@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7853e2d2-8161-4a85-aea8-1e34ff00fffd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cronut.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contact.html" afterPath="$PROJECT_DIR$/src/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creme_brulee.html" afterPath="$PROJECT_DIR$/src/creme_brulee.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scones.html" afterPath="$PROJECT_DIR$/src/scones.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/script.js" afterPath="$PROJECT_DIR$/src/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tipsrad.html" afterPath="$PROJECT_DIR$/src/tipsrad.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/main-style.css" afterPath="$PROJECT_DIR$/style/main-style.css" />
     </list>
     <ignored path="cookiemonster.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main-style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/main-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.967742">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.43037975">
+              <caret line="364" column="20" selection-start-line="364" selection-start-column="20" selection-end-line="364" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -81,18 +76,28 @@
       <file leaf-file-name="creme_brulee.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/creme_brulee.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="8.0">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="93" />
+            <state vertical-scroll-proportion="-4.724138">
+              <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80136985">
-              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            <state vertical-scroll-proportion="-23.806452">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cronut.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cronut.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.62963">
+              <caret line="45" column="18" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -101,8 +106,8 @@
       <file leaf-file-name="scones.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scones.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.666667">
-              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            <state vertical-scroll-proportion="-11.333333">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="137" />
               <folding />
             </state>
           </provider>
@@ -146,13 +151,14 @@
         <option value="$PROJECT_DIR$/src/header.html" />
         <option value="$PROJECT_DIR$/src/include/header.html" />
         <option value="$PROJECT_DIR$/src/include/footer.html" />
-        <option value="$PROJECT_DIR$/src/creme_brulee.html" />
         <option value="$PROJECT_DIR$/style/main-style.css" />
         <option value="$PROJECT_DIR$/src/contact.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/tipsrad.html" />
         <option value="$PROJECT_DIR$/src/scones.html" />
         <option value="$PROJECT_DIR$/src/script.js" />
+        <option value="$PROJECT_DIR$/src/b.html" />
+        <option value="$PROJECT_DIR$/src/creme_brulee.html" />
       </list>
     </option>
   </component>
@@ -592,7 +598,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457017924397</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="header and footer included to all the files from external html files except for tips&amp;råd page">
+      <created>1457084809992</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1457084809992</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -601,6 +613,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29283488" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -613,7 +626,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29283488" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -662,7 +674,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="header fixed" />
     <MESSAGE value="scones page added" />
-    <option name="LAST_COMMIT_MESSAGE" value="scones page added" />
+    <MESSAGE value="header and footer included to all the files from external html files except for tips&amp;råd page" />
+    <option name="LAST_COMMIT_MESSAGE" value="header and footer included to all the files from external html files except for tips&amp;råd page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -802,14 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/main-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.967742">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.6666665">
@@ -831,14 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scones.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.666667">
-          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tipsrad.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="21.948277">
@@ -855,18 +852,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creme_brulee.html">
+    <entry file="file://$PROJECT_DIR$/src/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.0">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="93" />
+        <state vertical-scroll-proportion="-23.806452">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/script.js">
+    <entry file="file://$PROJECT_DIR$/src/scones.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80136985">
-          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        <state vertical-scroll-proportion="-11.333333">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="137" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creme_brulee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.724138">
+          <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cronut.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.62963">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/main-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43037975">
+          <caret line="364" column="20" selection-start-line="364" selection-start-column="20" selection-end-line="364" selection-end-column="20" />
           <folding />
         </state>
       </provider>

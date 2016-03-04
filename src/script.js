@@ -1,11 +1,18 @@
 var portions;
 var myPoint = 0;
 var isRated = false;
-
+var n;
 $('#votes').text(getLocalStorage("key2"));
 $('#average').text(getLocalStorage("key3"));
 
-function displayPortion() {
+function changePortion(n) {
+	portions = document.getElementById("quantity").value;
+	setLocalStorage("key1", portions);
+	displayPortion(n);
+}
+
+function displayPortion(n) {
+	console.log("n = " + n);
 	portions = getLocalStorage("key1");
 	displaySlider();
 	var text = "person";
@@ -16,24 +23,27 @@ function displayPortion() {
 	}
 	document.getElementById("selectedPortion").innerHTML = "for " + portions + " " + text;
 
-// if scones:
-	eggScones();
-	flourScones();
-	bpScones();
-	saltScones();
-	butterScones();
-	milkScones();
-
-//	if creme_brulee:
-
-	eggYolk();
-	milk();
-	sugar();
-	cream();
-	vanilla();
-
+	if (n == 1) {
+		eggYolk();
+		milk();
+		sugar();
+		cream();
+		vanilla();
+	} else if (n == 2) {
+		eggScones();
+		flourScones();
+		bpScones();
+		saltScones();
+		butterScones();
+		milkScones();
+	}
 }
+
 window.onload = displayPortion;
+
+function displaySlider() {
+	$("#quantity").val(portions);
+}
 
 function eggScones() {
 	var text = "egg";
@@ -46,11 +56,11 @@ function eggScones() {
 }
 
 function flourScones() {
-	document.getElementById("flour_scones").innerHTML = 500 * portions + "g flour";
+	document.getElementById("flour_scones").innerHTML = 500 * portions + " g flour";
 }
 
 function bpScones() {
-	document.getElementById("bp_scones").innerHTML = 2 * portions + "teaspoons baking powder";
+	document.getElementById("bp_scones").innerHTML = 2 * portions + " teaspoons baking powder";
 }
 
 function saltScones() {
@@ -64,23 +74,13 @@ function saltScones() {
 }
 
 function butterScones() {
-	document.getElementById("butter_scones").innerHTML = 50 * portions + "g butter";
+	document.getElementById("butter_scones").innerHTML = 50 * portions + " g butter";
 }
 
 function milkScones() {
-	document.getElementById("milk_scones").innerHTML = 200 * portions + "ml milk";
+	document.getElementById("milk_scones").innerHTML = 200 * portions + " ml milk";
 }
 
-
-function displaySlider() {
-	$("#quantity").val(portions);
-}
-
-function changePortion() {
-	portions = document.getElementById("quantity").value;
-	setLocalStorage("key1", portions);
-	displayPortion();
-}
 
 function eggYolk() {
 	var text = "egg yolk";
