@@ -67,6 +67,8 @@ function displaySlider() {
 	$("#quantity").val(portions);
 }
 
+// scones
+
 function eggScones() {
 	var text = "egg";
 	if (portions == 1) {
@@ -103,6 +105,7 @@ function milkScones() {
 	document.getElementById("milk_scones").innerHTML = 200 * portions + " ml milk";
 }
 
+// creme brulee
 
 function eggYolk() {
 	var text = "egg yolk";
@@ -137,6 +140,7 @@ function vanilla() {
 	document.getElementById("vanilla_pod").innerHTML = portions + " " + text;
 }
 
+// cronut
 function yeastCronut() {
 	var text = "once";
 	if (0.25*portions <= 1) {
@@ -258,13 +262,15 @@ function smorVl() {
 	document.getElementById("smor_vl").innerHTML = 100 * portions + " g rumsvarmt smör";
 }
 
+// fetch rating result
 $('.ratingForm input').click(function() {
 	if(!isRated) {
-		$('#votes').html('<img src="../img/loader.gif">');
-		$('#average').html('<img src="../img/loader.gif">');
+		$('#votes').html('<img src="img/loader.gif">');
+		$('#average').html('<img src="img/loader.gif">');
+		console.log($(this).attr("id"));
 		$.ajax({
 			method: "GET",
-			url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=984d3fec6c2e1f94&recipe=creme_brulee",
+			url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=ade853a9ad825ff1&recipe=creme_brulee",
 			success: function(data) {
 				console.log(JSON.stringify(data));
 				$('#votes').text(data.votes);
@@ -279,6 +285,7 @@ $('.ratingForm input').click(function() {
 	}
 });
 
+// rate
 $('.ratingForm input').click(function() {
 	if(!isRated) {
 		myPoint = ($('input[name=rating]:checked', '.ratingForm').val());
@@ -287,7 +294,7 @@ $('.ratingForm input').click(function() {
 		console.log("this element: " + this);
 		$.ajax({
 			method: "GET",
-			url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=984d3fec6c2e1f94&recipe=creme_brulee&rating=" + myPoint,
+			url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=ade853a9ad825ff1&recipe=creme_brulee&rating=4" + myPoint,
 			success: function(data) {
 				console.log(JSON.stringify(data));
 				console.log("status: " + data.status);
@@ -307,13 +314,13 @@ $('.ratingForm label').hover(function() {
 		var	value = ($('input[name=rating]:hover', '.ratingForm').val());
 		var i = 0;
 		while (i <= value) {
-			$('label[for=star' + i + ']').css('backgroundImage', "url('../img/star_pink.png')");
+			$('label[for=star' + i + ']').css('backgroundImage', "url('img/star_pink.png')");
 			i++;
 		}
 	}
 }, function() {
 	if (!isRated) {
-		$('.ratingForm label').css('backgroundImage', "url('../img/star_grey.png')");
+		$('.ratingForm label').css('backgroundImage', "url('img/star_grey.png')");
 	}
 });
 
@@ -342,9 +349,5 @@ $(document).ready(function(){
 
 	$.get("include/footer.html", function(data) {
 	  $("#footer").html(data);
-	});
-
-	$.get("include/head.html", function(data) {
-	  $("#head").html(data);
 	});
 });

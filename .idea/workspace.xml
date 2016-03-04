@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7853e2d2-8161-4a85-aea8-1e34ff00fffd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creme_brulee.html" afterPath="$PROJECT_DIR$/src/creme_brulee.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/footer.html" afterPath="$PROJECT_DIR$/src/include/footer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/script.js" afterPath="$PROJECT_DIR$/src/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/varmlandstarta.html" afterPath="$PROJECT_DIR$/src/varmlandstarta.html" />
     </list>
     <ignored path="cookiemonster.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="varmlandstarta.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/varmlandstarta.html">
+      <file leaf-file-name="creme_brulee.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creme_brulee.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3333334">
-              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="29" />
+            <state vertical-scroll-proportion="-12.703704">
+              <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -73,18 +76,28 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5270936">
-              <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.27914613">
+              <caret line="264" column="22" selection-start-line="264" selection-start-column="22" selection-end-line="264" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/include/header.html">
+      <file leaf-file-name="scones.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scones.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0">
-              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+            <state vertical-scroll-proportion="-4.6666665">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="varmlandstarta.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/varmlandstarta.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.3333335">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -106,12 +119,10 @@
         <option value="$PROJECT_DIR$/style/contact-style.css" />
         <option value="$PROJECT_DIR$/src/recipe/creme_brulee.html" />
         <option value="$PROJECT_DIR$/src/header.html" />
-        <option value="$PROJECT_DIR$/src/include/footer.html" />
         <option value="$PROJECT_DIR$/src/contact.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/tipsrad.html" />
         <option value="$PROJECT_DIR$/src/b.html" />
-        <option value="$PROJECT_DIR$/src/creme_brulee.html" />
         <option value="$PROJECT_DIR$/src/scones.html" />
         <option value="$PROJECT_DIR$/src/cremebrulee.html" />
         <option value="$PROJECT_DIR$/src/include/head.html" />
@@ -119,6 +130,9 @@
         <option value="$PROJECT_DIR$/style/main-style.css" />
         <option value="$PROJECT_DIR$/src/varmlandtarta.html" />
         <option value="$PROJECT_DIR$/src/include/header.html" />
+        <option value="$PROJECT_DIR$/src/varmlandstarta.html" />
+        <option value="$PROJECT_DIR$/src/include/footer.html" />
+        <option value="$PROJECT_DIR$/src/creme_brulee.html" />
         <option value="$PROJECT_DIR$/src/script.js" />
       </list>
     </option>
@@ -601,7 +615,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457096243788</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="varmlandstårta  ingredients working">
+      <created>1457096991710</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1457096991710</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -676,7 +696,8 @@
     <MESSAGE value="cronut.html ingredients working" />
     <MESSAGE value="testing css" />
     <MESSAGE value="varmlandstårta recipe added. ingredients to be fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="varmlandstårta recipe added. ingredients to be fixed" />
+    <MESSAGE value="varmlandstårta  ingredients working" />
+    <option name="LAST_COMMIT_MESSAGE" value="varmlandstårta  ingredients working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -808,14 +829,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.6666665">
@@ -845,26 +858,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scones.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2413793">
-          <caret line="4" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/include/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.0">
           <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creme_brulee.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6">
-          <caret line="32" column="134" selection-start-line="32" selection-start-column="134" selection-end-line="32" selection-end-column="134" />
           <folding />
         </state>
       </provider>
@@ -885,18 +882,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/scones.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/varmlandstarta.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3333334">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="29" />
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creme_brulee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.703704">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5270936">
-          <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.27914613">
+          <caret line="264" column="22" selection-start-line="264" selection-start-column="22" selection-end-line="264" selection-end-column="22" />
           <folding />
         </state>
       </provider>
