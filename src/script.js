@@ -36,6 +36,18 @@ function displayPortion(n) {
 		saltScones();
 		butterScones();
 		milkScones();
+	} else if (n == 3) {
+		yeastCronut();
+		waterCronut();
+		saltCronut();
+		sugarCronut();
+		milkCronut();
+		butterCronut();
+		vanillaCronut();
+		eggCronut();
+		nutmeg();
+		flourCronut();
+		euButter();
 	}
 }
 
@@ -115,6 +127,97 @@ function vanilla() {
 	document.getElementById("vanilla_pod").innerHTML = portions + " " + text;
 }
 
+function yeastCronut() {
+	var text = "once";
+	if (0.25*portions <= 1) {
+		text = text;
+	} else {
+		text += "s";
+	}
+	document.getElementById("yeast").innerHTML = 0.25 * portions + " " + text + " active dry yeast";
+}
+
+function waterCronut() {
+	var text = "cup";
+	if (0.5 * portions <= 1) {
+		text = text;
+	} else {
+		text += "s";
+	}
+	document.getElementById("water").innerHTML = 0.5 * portions + " " + text + " of warm water";
+}
+
+function saltCronut() {
+	var text = "teaspopn";
+	if (portions <= 1) {
+		text = text;
+	} else {
+		text += "s";
+	}
+	document.getElementById("salt_cronut").innerHTML = portions + " " + text + " of fine salt";
+}
+
+function sugarCronut() {
+	document.getElementById("sugar_cronut").innerHTML = 2.5 * portions + " cups of white sugar";
+}
+
+function milkCronut() {
+	var text = "cup";
+	if (0.5 * portions <= 1) {
+		text = text;
+	} else {
+		text += "s";
+	}
+	document.getElementById("milk_cronut").innerHTML = 0.5 * portions + " " + text + " of milk";
+}
+
+function butterCronut() {
+	document.getElementById("melted_butter").innerHTML = 2 * portions + " tablespoons of melted butter";
+}
+
+function vanillaCronut() {
+	var text = "teaspopn";
+	if (portions <= 1) {
+		text = text;
+	} else {
+		text += "s";
+	}
+	document.getElementById("vanilla_extract").innerHTML = portions + " " + text + " of vanilla extract";
+}
+
+function eggCronut() {
+	var text = "large egg";
+	if (portions == 1) {
+		text = text;
+	} else {
+		text += "s";
+	}
+	document.getElementById("egg_cronut").innerHTML = portions + " " + text;
+}
+
+function nutmeg() {
+	var text = "teaspopn";
+	if (0.125 * portions <= 1) {
+		text = text;
+	} else {
+		text += "s";
+	}
+	document.getElementById("nutmeg").innerHTML = (0.125 * portions).toFixed(1) + " " + text + " of freshly grated nutmeg";
+}
+
+function flourCronut() {
+	var text = "pound";
+	if (portions == 1) {
+		text = text;
+	} else {
+		text += "s";
+	}
+	document.getElementById("flour_cronut").innerHTML = portions + " " + text + " all-purpose flour";
+}
+
+function euButter() {
+	document.getElementById("european_butter").innerHTML = 12 * portions + " tablespoons of European-style (low-moisture) butter";
+}
 
 $('.ratingForm input').click(function() {
 	if(!isRated) {
