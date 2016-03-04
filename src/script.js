@@ -48,6 +48,16 @@ function displayPortion(n) {
 		nutmeg();
 		flourCronut();
 		euButter();
+	} else if (n == 4) {
+		eggWhite();
+		kakao();
+		stroSocker();
+		hasselNotter();
+		mandelSpan();
+		eggyolkVl();
+		graddeVl();
+		sockerVl();
+		smorVl();
 	}
 }
 
@@ -217,6 +227,35 @@ function flourCronut() {
 
 function euButter() {
 	document.getElementById("european_butter").innerHTML = 12 * portions + " tablespoons of European-style (low-moisture) butter";
+}
+
+// värmlandstårta
+function eggWhite() {
+	document.getElementById("egg_white").innerHTML = 3 * portions + " äggvitor";
+}
+function kakao(){
+	document.getElementById("kakao").innerHTML = 2 * portions + " msk kakao";
+}
+ function stroSocker() {
+ 	document.getElementById("strosocker").innerHTML = 100 * portions + " g strösocker";
+ }
+function hasselNotter() {
+	document.getElementById("hasselnotter").innerHTML = 35 * portions + " g hackade hasselnötter";
+}
+function mandelSpan() {
+	document.getElementById("mandelspan").innerHTML = "rostade mandelspån";
+}
+function eggyolkVl() {
+	document.getElementById("eggyolk_vl").innerHTML = 3 * portions + " äggulor";
+}
+function graddeVl() {
+	document.getElementById("gradde_vl").innerHTML = 75 * portions + " cl grädde";
+}
+function sockerVl() {
+	document.getElementById("socker_kram_vl").innerHTML = 75 * portions + " g socker";
+}
+function smorVl() {
+	document.getElementById("smor_vl").innerHTML = 100 * portions + " g rumsvarmt smör";
 }
 
 $('.ratingForm input').click(function() {
