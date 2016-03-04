@@ -263,16 +263,37 @@ function smorVl() {
 	document.getElementById("smor_vl").innerHTML = 100 * portions + " g rumsvarmt smör";
 }
 
+var myUrl = "";
+
+$(".ratingForm input").click(function(){
+	var id = this.id;
+	var apiKey = "";
+    var bakegoods = "";
+	if (id == "tigercakeForm") {
+		apiKey = "80f4dcc92ab360d3";
+		bakegoods = "tigercake";
+		console.log("this is tiger cake");
+    }
+
+    myUrl = "https://edu.oscarb.se/sjk15/api/recipe/?api_key=" + apiKey + "&recipe=" + bakegoods;
+});
+
+
+
 // fetch rating result
 $('.ratingForm input').click(function() {
+
 	if(!isRated) {
 		$('#votes').html('<img src="img/loader.gif">');
 		$('#average').html('<img src="img/loader.gif">');
 		console.log($(this).attr("id"));
 
+
 		$.ajax({
 			method: "GET",
-			url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=ade853a9ad825ff1&recipe=creme_brulee",
+//			url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=" + apiKey + "&recipe=" + bakegoods,
+			url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=80f4dcc92ab360d3&recipe=tigercake",
+//			url = myUrl;
 			success: function(data) {
 				console.log(JSON.stringify(data));
 				$('#votes').text(data.votes);
@@ -287,6 +308,8 @@ $('.ratingForm input').click(function() {
 	}
 });
 
+$('.ratingForm input')
+
 // rate
 $('.ratingForm input').click(function() {
 	if(!isRated) {
@@ -294,9 +317,28 @@ $('.ratingForm input').click(function() {
 		$(this).next().slideUp();
 		$(this).next().slideDown();
 		console.log("this element: " + this);
+
+		// kate
+		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=0f69fc1a7bf82398&recipe=varmlandstarta
+		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=0f69fc1a7bf82398&recipe=varmlandstarta&rating=
+
+		// cronut
+		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=939da50dc8380768&recipe=cronut
+		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=939da50dc8380768&recipe=cronut&rating=
+
+		// scones
+		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=adcd44aec6944dff&recipe=scones
+		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=adcd44aec6944dff&recipe=scones&rating=4
+
+		// tiger cake
+		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=80f4dcc92ab360d3&recipe=tigercake
+		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=80f4dcc92ab360d3&recipe=tigercake&rating=
+
 		$.ajax({
 			method: "GET",
-			url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=ade853a9ad825ff1&recipe=creme_brulee&rating=" + myPoint,
+//			url: myUrl + "&rating=" + myPoint,
+//			url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=ade853a9ad825ff1&recipe=creme_brulee&rating=" + myPoint,
+			url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=80f4dcc92ab360d3&recipe=tigercake&rating=" + myPoint,
 			success: function(data) {
 				console.log(JSON.stringify(data));
 				console.log("status: " + data.status);
