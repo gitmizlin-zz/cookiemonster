@@ -8,25 +8,7 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-<header>
-    <div id="logo">
-        <img src="img/receptsidan-logo.png" alt="logo" />
-    </div>
-    <form style="float: right; position:absolute; right: 5%; top: 10%">
-        Google Search:
-        <input type="search" name="googlesearch">
-        <input type="Submit">
-    </form>
-    <nav>
-        <ul class="header-links">
-            <li> <a href="contact.html">kontakt</a></li>
-            <li> <a href="tipsrad.html">Tips & råd</a></li>
-            <li> <a href="index.html">Hem</a></li>
-            <li> <a href="creme_brulee.html">creme brulee (test)</a></li>
-            <li> <a href="scones.html">scones (test)</a></li>
-        </ul>
-    </nav>
-</header>
+<div id="header"></div>
 <main>
     <div class="info-box">
         <h1>Scones</h1>
@@ -51,11 +33,12 @@
         <input id="quantity" type="range" min="1" max="8" step="1" onload="displaySlider()" oninput="changePortion()">
         <p id="selectedPortion"></p>
         <ul id="ingredients">
-            <li id="egg_yolk"></li>
-            <li id="milk"></li>
-            <li id="sugar"></li>
-            <li id="heavy_cream"></li>
-            <li id="vanilla_pod"></li>
+            <li id="egg_scones"></li>
+            <li id="flour_scones"></li>
+            <li id="bp_scones"></li>
+            <li id="salt_scones"></li>
+            <li id="butter_scones"></li>
+            <li id="milk_scones"></li>
         </ul>
     </section>
 
@@ -86,13 +69,6 @@
         </li>
     </ol>
 </main>
-<footer>
-    <nav>
-        <ul class="footer-links">
-            <li> <a href="contact.html">kontakt</a></li>
-            <li> <a href="tipsrad.html">Tips & råd</a></li>
-        </ul>
-    </nav>
-</footer>
+<div id="footer"></div>
 </body>
 </html>
