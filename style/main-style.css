@@ -41,7 +41,6 @@ header {
 	margin-left:20px;
 }
 
-
 .header-links {
     font-family: "AkkuratRegular",Arial,Helvetica,sans-serif;
     font-size: 1rem;
@@ -49,7 +48,6 @@ header {
     margin: -40px 80px 0 auto;
     padding: 10px;
     text-transform: uppercase;
-    width: 300px;
 }
 
 .header-links li {
@@ -62,7 +60,6 @@ img {
     width: 100%;
     height: auto;
 }
-
 
 #h1 {
 	font-size:20px;

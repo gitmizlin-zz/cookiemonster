@@ -297,13 +297,15 @@ function setLocalStorage(key, value) {
 }
 
 $(document).ready(function(){
-  $.get("include/header.html", function(data) {
-    $("#header").html(data);
-  });
-});
+	$.get("include/header.html", function(data) {
+	$("#header").html(data);
+	});
 
-$(document).ready(function(){
-  $.get("include/footer.html", function(data) {
-    $("#footer").html(data);
-  });
+	$.get("include/footer.html", function(data) {
+	  $("#footer").html(data);
+	});
+
+	$.get("include/head.html", function(data) {
+	  $("#head").html(data);
+	});
 });
