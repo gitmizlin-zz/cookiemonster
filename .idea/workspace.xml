@@ -2,38 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7853e2d2-8161-4a85-aea8-1e34ff00fffd" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creme_brulee.html" afterPath="$PROJECT_DIR$/creme_brulee.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cronut.html" afterPath="$PROJECT_DIR$/cronut.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/check.png" afterPath="$PROJECT_DIR$/img/check.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/chokladbollar.jpg" afterPath="$PROJECT_DIR$/img/chokladbollar.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/creme_brulee_recipe_page/cb2.jpg" afterPath="$PROJECT_DIR$/img/creme_brulee_recipe_page/cb2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/creme_brulee_recipe_page/cb200x200.jpg" afterPath="$PROJECT_DIR$/img/creme_brulee_recipe_page/cb200x200.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/creme_brulee_recipe_page/recipe1.jpg" afterPath="$PROJECT_DIR$/img/creme_brulee_recipe_page/recipe1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/creme_brulee_recipe_page/recipe2.jpg" afterPath="$PROJECT_DIR$/img/creme_brulee_recipe_page/recipe2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/creme_brulee_recipe_page/recipe3.jpg" afterPath="$PROJECT_DIR$/img/creme_brulee_recipe_page/recipe3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/creme_brulee_recipe_page/recipe4.jpg" afterPath="$PROJECT_DIR$/img/creme_brulee_recipe_page/recipe4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/cupcaces.jpg" afterPath="$PROJECT_DIR$/img/cupcaces.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/loader.gif" afterPath="$PROJECT_DIR$/img/loader.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/recepi-of-the-day.jpg" afterPath="$PROJECT_DIR$/img/recepi-of-the-day.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/recept-17955-460x345.jpg" afterPath="$PROJECT_DIR$/img/recept-17955-460x345.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/receptsidan-logo.png" afterPath="$PROJECT_DIR$/img/receptsidan-logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/rulltarta.jpg" afterPath="$PROJECT_DIR$/img/rulltarta.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/scones.jpg" afterPath="$PROJECT_DIR$/img/scones.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/scones_recipe_page/scones2.jpg" afterPath="$PROJECT_DIR$/img/scones_recipe_page/scones2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/star_grey.png" afterPath="$PROJECT_DIR$/img/star_grey.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/star_pink.png" afterPath="$PROJECT_DIR$/img/star_pink.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/include/footer.html" afterPath="$PROJECT_DIR$/include/footer.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/include/header.html" afterPath="$PROJECT_DIR$/include/header.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/scones.html" afterPath="$PROJECT_DIR$/scones.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/style/contact-style.css" afterPath="$PROJECT_DIR$/style/contact-style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/style/main-style.css" afterPath="$PROJECT_DIR$/style/main-style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/style/tipsrad-style.css" afterPath="$PROJECT_DIR$/style/tipsrad-style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tipsrad.html" afterPath="$PROJECT_DIR$/tipsrad.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/varmlandstarta.html" afterPath="$PROJECT_DIR$/varmlandstarta.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/receptsajt/script.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cookiemonster.iml" afterPath="$PROJECT_DIR$/cookiemonster.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
     </list>
     <ignored path="cookiemonster.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,66 +33,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loader.gif" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/loader.gif">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scones.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/scones.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cupcaces.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/cupcaces.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rulltarta.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/rulltarta.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="star_grey.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/star_grey.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="star_pink.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/star_pink.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vlt.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/vlt_recipe_page/vlt.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chokladbollar.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/chokladbollar.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cronut2.jpg" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/img/cronut_recipe_page/cronut2.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23491028">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding>
+                <element signature="n#style#0;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#label#0;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#label#1;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#label#2;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -163,6 +86,7 @@
         <option value="$PROJECT_DIR$/receptsajt/scones.html" />
         <option value="$PROJECT_DIR$/receptsajt/tipsrad.html" />
         <option value="$PROJECT_DIR$/receptsajt/varmlandstarta.html" />
+        <option value="$PROJECT_DIR$/contact.html" />
       </list>
     </option>
   </component>
@@ -659,12 +583,18 @@
       <option name="project" value="LOCAL" />
       <updated>1457103952578</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="html files and folders moved to  root">
+      <created>1457121462101</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1457121462102</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -675,7 +605,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30438125" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30438125" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -737,7 +667,8 @@
     <MESSAGE value="star image working. Rating get to be fixed." />
     <MESSAGE value="rating for creme brulee working. to be fixed for other pages too" />
     <MESSAGE value="testing css" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing css" />
+    <MESSAGE value="html files and folders moved to  root" />
+    <option name="LAST_COMMIT_MESSAGE" value="html files and folders moved to  root" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -927,19 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#label#0;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#label#1;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#label#2;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/creme_brulee.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.037037">
@@ -988,42 +906,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/check.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/loader.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/scones.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/cupcaces.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/rulltarta.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/star_grey.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/star_pink.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/vlt_recipe_page/vlt.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/cronut_recipe_page/cronut2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -1033,9 +921,52 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/cronut_recipe_page/cronut2.jpg">
+    <entry file="file://$PROJECT_DIR$/img/star_pink.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/star_grey.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/rulltarta.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/cupcaces.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/scones.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/loader.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/check.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23491028">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#0;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#1;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#label#2;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
