@@ -171,6 +171,7 @@ function saltCronut() {
 	document.getElementById("salt_cronut").innerHTML = portions + " " + text + " of fine salt";
 }
 
+
 function sugarCronut() {
 	document.getElementById("sugar_cronut").innerHTML = 2.5 * portions + " cups of white sugar";
 }
@@ -268,6 +269,7 @@ $('.ratingForm input').click(function() {
 		$('#votes').html('<img src="img/loader.gif">');
 		$('#average').html('<img src="img/loader.gif">');
 		console.log($(this).attr("id"));
+
 		$.ajax({
 			method: "GET",
 			url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=ade853a9ad825ff1&recipe=creme_brulee",
@@ -294,7 +296,7 @@ $('.ratingForm input').click(function() {
 		console.log("this element: " + this);
 		$.ajax({
 			method: "GET",
-			url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=ade853a9ad825ff1&recipe=creme_brulee&rating=4" + myPoint,
+			url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=ade853a9ad825ff1&recipe=creme_brulee&rating=" + myPoint,
 			success: function(data) {
 				console.log(JSON.stringify(data));
 				console.log("status: " + data.status);
@@ -344,10 +346,10 @@ function setLocalStorage(key, value) {
 
 $(document).ready(function(){
 	$.get("include/header.html", function(data) {
-	$("#header").html(data);
+		$("#header").html(data);
 	});
 
 	$.get("include/footer.html", function(data) {
-	  $("#footer").html(data);
+		$("#footer").html(data);
 	});
 });
