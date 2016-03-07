@@ -1,20 +1,16 @@
 <!Doctype html>
 <html>
-
 <head>
     <meta charset="utf-8">
-    <title>Cookiemonster top</title>
+    <title>Cookiemonster - Nätets bästa bakverk!</title>
     <link rel="stylesheet" href="style/main-style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
 </head>
-
-<body>
+<body id="startpage">
 <div id="header"></div>
-
 <main>
     <div class="info-box">
-        <h1>Coociemonster - Nätets bästa bakverk!</h1>
+        <h1>Cookiemonster - Nätets bästa bakverk!</h1>
     </div>
     <aside>
         <nav>
@@ -22,13 +18,15 @@
                 <h3>Typ av recept</h3>
             </div>
             <ul class ="left-menu">
-                <li><a href="http://www.aftonbladet.se/">Bakverk</a></li>
-                <li><a href="http://www.aftonbladet.se/">Chocklad</a></li>
-                <li><a href="http://www.aftonbladet.se/">Vegetarisk</a></li>
-                <li><a href="http://www.aftonbladet.se/">Snabbmat</a></li>
+                <li><a href="#">Bakverk</a></li>
+                <li><a href="#">Chocklad</a></li>
+                <li><a href="#">Vegetarisk</a></li>
+                <li><a href="#">Snabbmat</a></li>
             </ul>
         </nav>
+
     </aside>
+
     <section>
         <div class="recepi-of-the-day">
             <h2 class="header-text">
@@ -39,72 +37,84 @@
                 <img src="img/recepi-of-the-day.jpg" alt="dagens recept">
             </div>
         </div>
-        <p>Sortera</p>
 
-        <select id="dropdown">
-            <option>Högsta betyg</option>
-            <option>Lägsta betyg</option>
-        </select>
-        <div class="recepi-grid">
-            <div class="recepi">
-                <a href="">
-                    <p></p>
-                    <div class="recepi-image">
-                        <img alt="" src="img/chokladbollar.jpg">
+        <div class="sort">
+            <strong>Sortera</strong>
+            <select id="dropdown">
+                <option>Högsta betyg</option>
+                <option>Lägsta betyg</option>
+            </select>
+        </div>
+
+        <div class="recepi-list">
+            <div>
+                <div class="image">
+                    <a href="">
+                        <img alt="scones recept" title="Scones recept" src="img/scones.jpg">
+                    </a>
+                </div>
+                <div class="recepi-detail">
+                    <div class="name">
+                        <a href="">Cupcakes</a>
                     </div>
-                </a>
-                <p>
-                    <a href=""></a>
-                </p>
-                <div class="recepi-title">
-                    <a href="">Chokladbollar</a>
+                    <div class="description"> Goda och lättbakade scones som bakas med bakpulver istället för jäst...</div>
+                    <div class="top-rating">
+                        <p>Plats för stjärnor</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="recepi">
-                <a href="">
-                    <p></p>
-                    <div class="recepi-image bottom-shadow">
-                        <img alt="" src="img/scones.jpg">
+            <div>
+                <div class="image">
+                    <a href="">
+                        <img alt="cupcakes" title="Cupcaces" src="img/cupcaces.jpg">
+                    </a>
+                </div>
+                <div class="recepi-detail">
+                    <div class="name">
+                        <a href="">Cupcakes</a>
                     </div>
-                </a>
-                <p>
-                    <a href=""></a>
-                </p>
-                <div class="recepi-title">
-                    <a href="">Scones</a>
+                    <div class="description"> Goda och lättbakade scones som bakas med bakpulver istället för jäst...</div>
+                    <div class="top-rating">
+                        <p>Plats för stjärnor</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="recepi">
-                <a href="">
-                    <p></p>
-                    <div class="recepi-image bottom-shadow">
-                        <img alt="" src="img/cupcaces.jpg">
+            <div>
+                <div class="image">
+                    <a href="">
+                        <img alt="cupcakes" title="Cupcaces" src="img/cupcaces.jpg">
+                    </a>
+                </div>
+                <div class="recepi-detail">
+                    <div class="name">
+                        <a href="">Cupcakes</a>
                     </div>
-                </a>
-                <p>
-                    <a href=""></a>
-                </p>
-                <div class="recepi-title">
-                    <a href="">Cupcaces</a>
+                    <div class="description"> Goda och lättbakade scones som bakas med bakpulver istället för jäst...</div>
+                    <div class="top-rating">
+                        <p>Plats för stjärnor</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="recepi">
-                <a href="">
-                    <p></p>
-                    <div class="recepi-image bottom-shadow">
-                        <img alt="" src="img/rulltarta.jpg">
+            <div>
+                <div class="image">
+                    <a href="">
+                        <img alt="cupcakes" title="Cupcaces" src="img/cupcaces.jpg">
+                    </a>
+                </div>
+                <div class="recepi-detail">
+                    <div class="name">
+                        <a href="">Cupcakes</a>
                     </div>
-                </a>
-                <p>
-                    <a href=""></a>
-                </p>
-                <div class="recepi-title">
-                    <a href="">Rulltårta</a>
+                    <div class="description"> Goda och lättbakade scones som bakas med bakpulver istället för jäst...</div>
+                    <div class="top-rating">
+                        <p>Plats för stjärnor</p>
+                    </div>
                 </div>
             </div>
+        </div>
     </section>
 </main>
 <div id="footer"></div>

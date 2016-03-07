@@ -1,9 +1,19 @@
-window.onload = displayPortion($("body").attr("id"));
+$(document).ready(function(){
+	$.get("include/header.html", function(data) {
+		$("#header").html(data);
+	});
+
+	$.get("include/footer.html", function(data) {
+		$("#footer").html(data);
+	});
+});
+
+var pageNr = $("body").attr("id");
+window.onload = displayPortion(pageNr);
 console.log($("body").attr("id"));
 var portions;
 var myPoint = 0;
 var isRated = false;
-var pageNr;
 
 $('#votes').text(getLocalStorage("key2"));
 $('#average').text(getLocalStorage("key3"));
@@ -17,6 +27,7 @@ function changePortion(pageNr) {
 function displayPortion(pageNr) {
 	console.log("page number = " + pageNr);
 	portions = getLocalStorage("key1");
+
 	displaySlider();
 	var text = "person";
 	if (portions == 1) {
@@ -61,7 +72,7 @@ function displayPortion(pageNr) {
 		graddeVl();
 		sockerVl();
 		smorVl();
-	} else if (pageNr == "apge5") {
+	} else if (pageNr == "page5") {
 		console.log("tigerkaka");
 		butterTk();
 		sockerTk();
@@ -431,12 +442,3 @@ function setLocalStorage(key, value) {
 	}
 }
 
-$(document).ready(function(){
-	$.get("include/header.html", function(data) {
-		$("#header").html(data);
-	});
-
-	$.get("include/footer.html", function(data) {
-		$("#footer").html(data);
-	});
-});
