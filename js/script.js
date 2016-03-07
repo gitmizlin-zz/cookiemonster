@@ -1,3 +1,5 @@
+window.onload = displayPortion($("body").attr("id"));
+console.log($("body").attr("id"));
 var portions;
 var myPoint = 0;
 var isRated = false;
@@ -24,20 +26,20 @@ function displayPortion(pageNr) {
 	}
 	document.getElementById("selectedPortion").innerHTML = "for " + portions + " " + text;
 
-	if (pageNr == 1) {
+	if (pageNr == "page1") {
 		eggYolk();
 		milk();
 		sugar();
 		cream();
 		vanilla();
-	} else if (pageNr == 2) {
+	} else if (pageNr == "page2") {
 		eggScones();
 		flourScones();
 		bpScones();
 		saltScones();
 		butterScones();
 		milkScones();
-	} else if (pageNr == 3) {
+	} else if (pageNr == "page3") {
 		yeastCronut();
 		waterCronut();
 		saltCronut();
@@ -49,7 +51,7 @@ function displayPortion(pageNr) {
 		nutmeg();
 		flourCronut();
 		euButter();
-	} else if (pageNr == 4) {
+	} else if (pageNr == "page4") {
 		eggWhite();
 		kakao();
 		stroSocker();
@@ -59,7 +61,7 @@ function displayPortion(pageNr) {
 		graddeVl();
 		sockerVl();
 		smorVl();
-	} else if (pageNr == 5) {
+	} else if (pageNr == "apge5") {
 		console.log("tigerkaka");
 		butterTk();
 		sockerTk();
@@ -71,8 +73,6 @@ function displayPortion(pageNr) {
 		 kakaoTk();
 	}
 }
-
-window.onload = displayPortion;
 
 function displaySlider() {
 	$("#quantity").val(portions);
