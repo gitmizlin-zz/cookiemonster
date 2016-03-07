@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7853e2d2-8161-4a85-aea8-1e34ff00fffd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/main-style.css" afterPath="$PROJECT_DIR$/style/main-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tipsrad.html" afterPath="$PROJECT_DIR$/tipsrad.html" />
     </list>
     <ignored path="cookiemonster.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70446736">
+            <state vertical-scroll-proportion="-21.413794">
               <caret line="69" column="70" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="70" />
               <folding />
             </state>
@@ -63,11 +60,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="tipsrad.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tipsrad.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2055465">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="creme_brulee.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/creme_brulee.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="31.296297">
-              <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
+            <state vertical-scroll-proportion="-15.37037">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="79" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -170,6 +177,7 @@
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/tipsrad.html" />
       </list>
     </option>
   </component>
@@ -756,7 +764,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457339237391</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="index.html and css merged (layout changed)">
+      <created>1457350672187</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1457350672187</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -845,7 +859,8 @@
     <MESSAGE value="html files and folders moved to  root" />
     <MESSAGE value="fixing star rating for all the pages, trying to fetch each id of input form" />
     <MESSAGE value="ingredients displays onload (assigned body id for each recipe page)" />
-    <option name="LAST_COMMIT_MESSAGE" value="ingredients displays onload (assigned body id for each recipe page)" />
+    <MESSAGE value="index.html and css merged (layout changed)" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.html and css merged (layout changed)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1072,14 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tipsrad.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.0">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tigercake.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.666667">
@@ -1133,14 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/creme_brulee.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="31.296297">
-          <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/varmlandstarta.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.034483">
@@ -1159,8 +1158,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70446736">
+        <state vertical-scroll-proportion="-21.413794">
           <caret line="69" column="70" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/creme_brulee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.37037">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="79" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tipsrad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2055465">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding />
         </state>
       </provider>
