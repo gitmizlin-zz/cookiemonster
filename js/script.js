@@ -8,9 +8,9 @@ $(document).ready(function(){
 	});
 });
 
-var pageNr = $("body").attr("id");
-window.onload = displayPortion(pageNr);
-console.log($("body").attr("id"));
+var pageId = $("body").attr("id");
+window.onload = displayPortion(pageId);
+
 var portions;
 var myPoint = 0;
 var isRated = false;
@@ -18,16 +18,15 @@ var isRated = false;
 $('#votes').text(getLocalStorage("key2"));
 $('#average').text(getLocalStorage("key3"));
 
-function changePortion(pageNr) {
+function changePortion() {
 	portions = document.getElementById("quantity").value;
 	setLocalStorage("key1", portions);
-	displayPortion(pageNr);
+	displayPortion(pageId);
 }
 
-function displayPortion(pageNr) {
-	console.log("page number = " + pageNr);
+function displayPortion(pageId) {
+	console.log("page number = " + pageId);
 	portions = getLocalStorage("key1");
-
 	displaySlider();
 	var text = "person";
 	if (portions == 1) {
@@ -37,20 +36,20 @@ function displayPortion(pageNr) {
 	}
 	document.getElementById("selectedPortion").innerHTML = "for " + portions + " " + text;
 
-	if (pageNr == "page1") {
+	if (pageId == "page1") {
 		eggYolk();
 		milk();
 		sugar();
 		cream();
 		vanilla();
-	} else if (pageNr == "page2") {
+	} else if (pageId == "page2") {
 		eggScones();
 		flourScones();
 		bpScones();
 		saltScones();
 		butterScones();
 		milkScones();
-	} else if (pageNr == "page3") {
+	} else if (pageId == "page3") {
 		yeastCronut();
 		waterCronut();
 		saltCronut();
@@ -62,7 +61,7 @@ function displayPortion(pageNr) {
 		nutmeg();
 		flourCronut();
 		euButter();
-	} else if (pageNr == "page4") {
+	} else if (pageId == "page4") {
 		eggWhite();
 		kakao();
 		stroSocker();
@@ -72,7 +71,7 @@ function displayPortion(pageNr) {
 		graddeVl();
 		sockerVl();
 		smorVl();
-	} else if (pageNr == "page5") {
+	} else if (pageId == "page5") {
 		console.log("tigerkaka");
 		butterTk();
 		sockerTk();
@@ -325,11 +324,16 @@ $(".ratingForm input").click(function(){
 	var id = this.id;
 	var apiKey = "";
     var bakegoods = "";
-	if (id == "tigercakeForm") {
+
+	if (pageId == "page4") {
+		apiKey = "0f69fc1a7bf82398";
+		bakegoods = "varmlandstarta";
+		console.log("this is varmlandstårta");
+    } else if (pageId == "page5") {
 		apiKey = "80f4dcc92ab360d3";
 		bakegoods = "tigercake";
 		console.log("this is tiger cake");
-    }
+	}
 
     myUrl = "https://edu.oscarb.se/sjk15/api/recipe/?api_key=" + apiKey + "&recipe=" + bakegoods;
 });
