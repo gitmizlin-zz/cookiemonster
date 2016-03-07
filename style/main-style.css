@@ -85,6 +85,7 @@ main {
 aside {
     float:left;
     width:200px;
+    margin-right: 100px;
 }
 
 .left-menu {
@@ -570,8 +571,9 @@ footer {
 }
 
 #recipe_above {
-	display: inline-block;
-	width: 100%;
+	display: block;
+	width: 70%;
+	float: left;
 }
 
 .img_source {

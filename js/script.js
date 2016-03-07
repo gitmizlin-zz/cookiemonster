@@ -3,6 +3,10 @@ $(document).ready(function(){
 		$("#header").html(data);
 	});
 
+	$.get("include/aside.html", function(data) {
+		$("#aside").html(data);
+	});
+
 	$.get("include/footer.html", function(data) {
 		$("#footer").html(data);
 	});
@@ -354,22 +358,6 @@ $(".ratingForm input").click(function(){
 });
 
 console.log(getResultUrl);
-		// kate
-		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=0f69fc1a7bf82398&recipe=varmlandstarta
-		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=0f69fc1a7bf82398&recipe=varmlandstarta&rating=
-
-		// cronut
-		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=939da50dc8380768&recipe=cronut
-		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=939da50dc8380768&recipe=cronut&rating=
-
-		// scones
-		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=adcd44aec6944dff&recipe=scones
-		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=adcd44aec6944dff&recipe=scones&rating=4
-
-		// tiger cake
-		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=80f4dcc92ab360d3&recipe=tigercake
-		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=80f4dcc92ab360d3&recipe=tigercake&rating=
-
 
 // fetch rating result
 $('.ratingForm input').click(function() {
