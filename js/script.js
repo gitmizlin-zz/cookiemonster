@@ -12,7 +12,6 @@ var pageId = $("body").attr("id");
 window.onload = displayPortion(pageId);
 
 var portions;
-var myPoint = 0;
 var isRated = false;
 
 $('#votes').text(getLocalStorage("key2"));
@@ -318,26 +317,58 @@ function kakaoTk() {
 	document.getElementById("kakao_tk").innerHTML = 2 * portions + " msk kakao";
 }
 
-var myUrl = "";
+var getResultUrl = "";
 
 $(".ratingForm input").click(function(){
 	var id = this.id;
 	var apiKey = "";
     var bakegoods = "";
 
-	if (pageId == "page4") {
+	if (pageId == "page1") {
+		apiKey = "984d3fec6c2e1f94";
+		bakegoods = "creme_brulee";
+		console.log("this is cb");
+
+	} else if (pageId == "page2") {
+		apiKey = "adcd44aec6944dff";
+		bakegoods = "scones";
+		console.log("this is scones");
+
+	} else if (pageId == "page3") {
+		apiKey = "939da50dc8380768";
+		bakegoods = "cronut";
+		console.log("this is cronut");
+
+	} else if (pageId == "page4") {
 		apiKey = "0f69fc1a7bf82398";
 		bakegoods = "varmlandstarta";
-		console.log("this is varmlandstårta");
+		console.log("this is vt");
+
     } else if (pageId == "page5") {
 		apiKey = "80f4dcc92ab360d3";
 		bakegoods = "tigercake";
 		console.log("this is tiger cake");
 	}
 
-    myUrl = "https://edu.oscarb.se/sjk15/api/recipe/?api_key=" + apiKey + "&recipe=" + bakegoods;
+    getResultUrl = "https://edu.oscarb.se/sjk15/api/recipe/?api_key=" + apiKey + "&recipe=" + bakegoods;
 });
 
+console.log(getResultUrl);
+		// kate
+		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=0f69fc1a7bf82398&recipe=varmlandstarta
+		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=0f69fc1a7bf82398&recipe=varmlandstarta&rating=
+
+		// cronut
+		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=939da50dc8380768&recipe=cronut
+		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=939da50dc8380768&recipe=cronut&rating=
+
+		// scones
+		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=adcd44aec6944dff&recipe=scones
+		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=adcd44aec6944dff&recipe=scones&rating=4
+
+		// tiger cake
+		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=80f4dcc92ab360d3&recipe=tigercake
+		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=80f4dcc92ab360d3&recipe=tigercake&rating=
 
 
 // fetch rating result
@@ -348,12 +379,9 @@ $('.ratingForm input').click(function() {
 		$('#average').html('<img src="img/loader.gif">');
 		console.log($(this).attr("id"));
 
-
 		$.ajax({
 			method: "GET",
-//			url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=" + apiKey + "&recipe=" + bakegoods,
-			url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=80f4dcc92ab360d3&recipe=tigercake",
-//			url = myUrl;
+			url: getResultUrl,
 			success: function(data) {
 				console.log(JSON.stringify(data));
 				$('#votes').text(data.votes);
@@ -371,6 +399,7 @@ $('.ratingForm input').click(function() {
 $('.ratingForm input')
 
 // rate
+var myPoint = 0;
 $('.ratingForm input').click(function() {
 	if(!isRated) {
 		myPoint = ($('input[name=rating]:checked', '.ratingForm').val());
@@ -378,27 +407,9 @@ $('.ratingForm input').click(function() {
 		$(this).next().slideDown();
 		console.log("this element: " + this);
 
-		// kate
-		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=0f69fc1a7bf82398&recipe=varmlandstarta
-		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=0f69fc1a7bf82398&recipe=varmlandstarta&rating=
-
-		// cronut
-		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=939da50dc8380768&recipe=cronut
-		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=939da50dc8380768&recipe=cronut&rating=
-
-		// scones
-		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=adcd44aec6944dff&recipe=scones
-		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=adcd44aec6944dff&recipe=scones&rating=4
-
-		// tiger cake
-		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=80f4dcc92ab360d3&recipe=tigercake
-		// https://edu.oscarb.se/sjk15/api/recipe/?api_key=80f4dcc92ab360d3&recipe=tigercake&rating=
-
 		$.ajax({
 			method: "GET",
-//			url: myUrl + "&rating=" + myPoint,
-//			url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=ade853a9ad825ff1&recipe=creme_brulee&rating=" + myPoint,
-			url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=80f4dcc92ab360d3&recipe=tigercake&rating=" + myPoint,
+			url: getResultUrl + "&rating=" + myPoint,
 			success: function(data) {
 				console.log(JSON.stringify(data));
 				console.log("status: " + data.status);
@@ -445,4 +456,3 @@ function setLocalStorage(key, value) {
 		throw "window.localStorage, not defined";
 	}
 }
-
