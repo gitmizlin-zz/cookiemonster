@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+window.onload = displayPortion($("body").attr("id"));
+console.log($("body").attr("id"));
+>>>>>>> e33b4bc3533a89f466ed137e87e5186ada382cfb
 var portions;
 var myPoint = 0;
 var isRated = false;
@@ -24,20 +29,32 @@ function displayPortion(pageNr) {
 	}
 	document.getElementById("selectedPortion").innerHTML = "for " + portions + " " + text;
 
+<<<<<<< HEAD
 	if (pageNr == 1) {
+=======
+	if (pageNr == "page1") {
+>>>>>>> e33b4bc3533a89f466ed137e87e5186ada382cfb
 		eggYolk();
 		milk();
 		sugar();
 		cream();
 		vanilla();
+<<<<<<< HEAD
 	} else if (pageNr == 2) {
+=======
+	} else if (pageNr == "page2") {
+>>>>>>> e33b4bc3533a89f466ed137e87e5186ada382cfb
 		eggScones();
 		flourScones();
 		bpScones();
 		saltScones();
 		butterScones();
 		milkScones();
+<<<<<<< HEAD
 	} else if (pageNr == 3) {
+=======
+	} else if (pageNr == "page3") {
+>>>>>>> e33b4bc3533a89f466ed137e87e5186ada382cfb
 		yeastCronut();
 		waterCronut();
 		saltCronut();
@@ -49,7 +66,11 @@ function displayPortion(pageNr) {
 		nutmeg();
 		flourCronut();
 		euButter();
+<<<<<<< HEAD
 	} else if (pageNr == 4) {
+=======
+	} else if (pageNr == "page4") {
+>>>>>>> e33b4bc3533a89f466ed137e87e5186ada382cfb
 		eggWhite();
 		kakao();
 		stroSocker();
@@ -59,7 +80,11 @@ function displayPortion(pageNr) {
 		graddeVl();
 		sockerVl();
 		smorVl();
+<<<<<<< HEAD
 	} else if (pageNr == 5) {
+=======
+	} else if (pageNr == "apge5") {
+>>>>>>> e33b4bc3533a89f466ed137e87e5186ada382cfb
 		console.log("tigerkaka");
 		butterTk();
 		sockerTk();
@@ -72,8 +97,11 @@ function displayPortion(pageNr) {
 	}
 }
 
+<<<<<<< HEAD
 window.onload = displayPortion;
 
+=======
+>>>>>>> e33b4bc3533a89f466ed137e87e5186ada382cfb
 function displaySlider() {
 	$("#quantity").val(portions);
 }
