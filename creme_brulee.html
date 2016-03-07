@@ -2,24 +2,11 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Receptsidan</title>
+    <title>Crème brûlée</title>
     <link rel="stylesheet" href="style/main-style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
-</head>
 <body>
-<header>
-    <div id="logo">
-        <img src="img/receptsidan-logo.png" alt="logo" />
-    </div>
-    <nav>
-        <ul class="header-links">
-            <li> <a href="index.html">Hem</a></li>
-            <li> <a href="contact.html">kontakt</a></li>
-            <li> <a href="tipsrad.html">Tips & råd</a></li>
-        </ul>
-    </nav>
-</header>
+<div id="header"></div>
 <main>
     <div class="info-box">
         <h1>Crème brûlée</h1>
@@ -28,7 +15,7 @@
         <figure>
             <img src="img/creme_brulee_recipe_page/cb2.jpg" alt="crème brûlée">
             <h2>Rate crème brûlée</h2>
-            <form class="ratingForm">
+            <form class="ratingForm" id="cbForm">
                 <input class="stars" type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Meh!"></label>
                 <input class="stars" type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Kinda ok"></label>
                 <input class="stars" type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Yeah sure"></label>
@@ -41,7 +28,7 @@
         </figure>
         <h2>Ingredients</h2>
         <p id="select_a_portion">Select a portion </p>
-        <input id="quantity" type="range" min="1" max="8" step="1" onload="displaySlider()" oninput="changePortion()">
+        <input id="quantity" type="range" min="1" max="8" step="1" onload="displaySlider(); changePortion(1)" oninput="changePortion(1)">
         <p id="selectedPortion"></p>
         <ul id="ingredients">
             <li id="egg_yolk"></li>
@@ -55,7 +42,6 @@
     <h2>Method</h2>
     <ol id="method">
         <li>
-            <img class="step" src="img/creme_brulee_recipe_page/recipe1.jpg" alt="recipe_step1">
             <p>
                 Preheat the oven to 160 degrees C.
                 Place the cream, vanilla bean and its pulp into a medium saucepan set over medium-high heat and
@@ -64,7 +50,6 @@
             </p>
         </li>
         <li>
-            <img class="step" src="img/creme_brulee_recipe_page/recipe2.jpg"  alt="recipe_step2">
             <p>
                 In a medium bowl, whisk together a half of the sugar and the egg yolks until well blended and it
                 just starts to lighten in color. Add the cream a little at a time, stirring continually. Pour the
@@ -72,7 +57,6 @@
             </p>
         </li>
         <li>
-            <img class="step" src="img/creme_brulee_recipe_page/recipe3.jpg"  alt="recipe_step3">
             <p>
                 Place the ramekins into a large cake pan or roasting pan. Pour enough hot water into the pan to
                 come halfway up the sides of the ramekins. Bake just until the creme brulee is set, but still trembling
@@ -81,7 +65,6 @@
             </p>
         </li>
         <li>
-            <img class="step" src="img/creme_brulee_recipe_page/recipe4.jpg"  alt="recipe_step4">
             <p>
                 Remove the creme brulee from the refrigerator for at least 30 minutes prior to browning the sugar on top.
                 Divide the remaining sugar equally among the dishes and spread evenly on top. Using
@@ -91,13 +74,8 @@
         </li>
     </ol>
 </main>
-<footer>
-    <nav>
-        <ul class="footer-links">
-            <li> <a href="contact.html">kontakt</a></li>
-            <li> <a href="tipsrad.html">Tips & råd</a></li>
-        </ul>
-    </nav>
-</footer>
+<div id="footer"></div>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
+
