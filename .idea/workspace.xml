@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7853e2d2-8161-4a85-aea8-1e34ff00fffd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/recipe-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/receptsidan-logo.png" afterPath="$PROJECT_DIR$/img/receptsidan-logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/creme_brulee.html" afterPath="$PROJECT_DIR$/creme_brulee.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cronut.html" afterPath="$PROJECT_DIR$/cronut.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scones.html" afterPath="$PROJECT_DIR$/scones.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/main-style.css" afterPath="$PROJECT_DIR$/style/main-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tigercake.html" afterPath="$PROJECT_DIR$/tigercake.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/varmlandstarta.html" afterPath="$PROJECT_DIR$/varmlandstarta.html" />
     </list>
     <ignored path="cookiemonster.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,20 +49,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tigercake.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tigercake.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tigercake.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0">
-              <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.5008157">
+              <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="varmlandstarta.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="varmlandstarta.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/varmlandstarta.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1761827">
+            <state vertical-scroll-proportion="-4.0">
               <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
               <folding />
             </state>
@@ -240,20 +234,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cookiemonster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cookiemonster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cookiemonster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -821,7 +801,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457617128426</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="recipe-style.css created">
+      <created>1457617813132</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1457617813132</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -890,7 +876,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="width and text-color of contact form changed" />
     <MESSAGE value="creme brulee recipe page added. &#10;portions works. &#10;stars not working yet" />
     <MESSAGE value="header fixed" />
     <MESSAGE value="scones page added" />
@@ -915,7 +900,8 @@
     <MESSAGE value="sorting added to index.html" />
     <MESSAGE value="js files added (sorting)" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="recipe-style.css created" />
+    <option name="LAST_COMMIT_MESSAGE" value="recipe-style.css created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1260,7 +1246,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tigercake.html">
+    <entry file="file://$PROJECT_DIR$/varmlandstarta.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.0">
           <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
@@ -1268,10 +1254,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/varmlandstarta.html">
+    <entry file="file://$PROJECT_DIR$/tigercake.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1761827">
-          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.5008157">
+          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
           <folding />
         </state>
       </provider>
