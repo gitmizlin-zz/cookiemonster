@@ -421,3 +421,28 @@ function setLocalStorage(key, value) {
 		throw "window.localStorage, not defined";
 	}
 }
+
+
+dailyMenu();
+
+function dailyMenu(){
+
+var dailyImage = [];
+dailyImage[0] = {src:"img/creme_brulee_recipe_page/cb2.jpg", caption:"Crème brûlée"};
+dailyImage[1] = {src:"img/scones_recipe_page/scones2.jpg", caption:"Scones"};
+dailyImage[2] = {src:"img/vlt.jpg", caption:"varmlandtårta"};
+dailyImage[3] = {src:"img/cronut_recipe_page/cronut2.jpg", caption:"Cronut"};
+dailyImage[4] = {src:"img/tigercake_recipe_page/tigerkaka.jpg", caption:"Tigerkaka"};
+
+
+var today = new Date();
+var day = Math.floor(today/8.64e7);
+
+var dailyNr = day % dailyImage.length;
+
+var imgSource = dailyImage[dailyNr].src;
+var hrefSource = dailyImage[dailyNr].href;
+
+$("#recepi-of-the-day-img").attr("src", imgSource);
+$("#recepi-of-the-day-img").attr("href", hrefSource);
+}
