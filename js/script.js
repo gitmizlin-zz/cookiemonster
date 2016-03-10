@@ -428,11 +428,11 @@ dailyMenu();
 function dailyMenu(){
 
 var dailyImage = [];
-dailyImage[0] = {src:"img/creme_brulee_recipe_page/cb2.jpg", caption:"Crème brûlée"};
-dailyImage[1] = {src:"img/scones_recipe_page/scones2.jpg", caption:"Scones"};
-dailyImage[2] = {src:"img/vlt.jpg", caption:"varmlandtårta"};
-dailyImage[3] = {src:"img/cronut_recipe_page/cronut2.jpg", caption:"Cronut"};
-dailyImage[4] = {src:"img/tigercake_recipe_page/tigerkaka.jpg", caption:"Tigerkaka"};
+dailyImage[0] = {src:"img/creme_brulee_recipe_page/cb2.jpg", caption:"Crème brûlée", href:"http://gitmizlin.github.io/cookiemonster/creme_brulee.html"};
+dailyImage[1] = {src:"img/scones_recipe_page/scones2.jpg", caption:"Scones", href:"http://gitmizlin.github.io/cookiemonster/scones.html"};
+dailyImage[2] = {src:"img/vlt.jpg", caption:"varmlandtårta", href:"http://gitmizlin.github.io/cookiemonster/varmlandstarta.html"};
+dailyImage[3] = {src:"img/cronut_recipe_page/cronut2.jpg", caption:"Cronut", href:"http://gitmizlin.github.io/cookiemonster/cronut.html"};
+dailyImage[4] = {src:"img/tigercake_recipe_page/tigerkaka.jpg", caption:"Tigerkaka", href:"http://gitmizlin.github.io/cookiemonster/tigercake.html"};
 
 
 var today = new Date();
