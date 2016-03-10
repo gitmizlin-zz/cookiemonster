@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7853e2d2-8161-4a85-aea8-1e34ff00fffd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/scones.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/main-style.css" afterPath="$PROJECT_DIR$/style/main-style.css" />
     </list>
     <ignored path="cookiemonster.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -778,7 +775,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457615608607</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="test">
+      <created>1457617073539</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1457617073539</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -849,7 +852,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="width and text-color of contact form changed" />
     <MESSAGE value="creme brulee recipe page added. &#10;portions works. &#10;stars not working yet" />
-    <MESSAGE value="test" />
     <MESSAGE value="header fixed" />
     <MESSAGE value="scones page added" />
     <MESSAGE value="header and footer included to all the files from external html files except for tips&amp;råd page" />
@@ -872,7 +874,8 @@
     <MESSAGE value="getUrl() working. star rating, votes, average working (moved  variable pageId)" />
     <MESSAGE value="sorting added to index.html" />
     <MESSAGE value="js files added (sorting)" />
-    <option name="LAST_COMMIT_MESSAGE" value="js files added (sorting)" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
