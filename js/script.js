@@ -1,3 +1,8 @@
+var myPoint = 0;
+var myUrl = "";
+var portions;
+var pageId = $("body").attr("id");
+
 $(document).ready(function(){
 	$.get("include/header.html", function(data) {
 		$("#header").html(data);
@@ -12,14 +17,92 @@ $(document).ready(function(){
 	});
 });
 
-var pageId = $("body").attr("id");
+function getUrl() {
+	console.log('page id is ' + pageId);
+	var apiKey = ""
+    var bakegoods = "";
+
+	if (pageId == "page1") {
+		apiKey = "a89f97b4adb731a9";
+		bakegoods = "creme_brulee";
+
+	} else if (pageId == "page2") {
+		apiKey = "adcd44aec6944dff";
+		bakegoods = "scones";
+
+	} else if (pageId == "page3") {
+		apiKey = "939da50dc8380768";
+		bakegoods = "cronut";
+
+	} else if (pageId == "page4") {
+		apiKey = "0f69fc1a7bf82398";
+		bakegoods = "varmlandstarta";
+
+    } else if (pageId == "page5") {
+		apiKey = "80f4dcc92ab360d3";
+		bakegoods = "tigercake";
+	}
+
+	myUrl = 'https://edu.oscarb.se/sjk15/api/recipe/?api_key=' + apiKey + '&recipe=' + bakegoods;
+	console.log('myUrl is ' + myUrl);
+	return myUrl;
+}
+
+function displayResults() {
+	$('#votes').html('<img src="img/loader.gif">');
+	$('#average').html('<img src="img/loader.gif">');
+	$.ajax({
+		method: "GET",
+		url: getUrl(),
+		success: function(data) {
+			console.log(JSON.stringify(data));
+			$('#votes').text(data.votes);
+			$('#average').text(data.rating.toFixed(1));
+		},
+		error: function(jqXHR, textStatus, errorThrown) {
+		  console.log(textStatus, errorThrown);
+		}
+	});
+}
+window.onload = displayResults();
+
+
+// vote
+$('.ratingForm input').click(function() {
+	myPoint = ($('input[name=rating]:checked', '.ratingForm').val());
+	$(this).next().slideUp();
+	$(this).next().slideDown();
+	console.log("this element: " + this);
+	$.ajax({
+		method: "GET",
+		url: myUrl + '&rating=' + myPoint,
+		success: function(data) {
+			console.log(JSON.stringify(data));
+			console.log("status: " + data.status);
+			$('#myRating').text(myPoint);
+			displayResults();
+		},
+		error: function(jqXHR, textStatus, errorThrown) {
+		  console.log(textStatus, errorThrown);
+		}
+	});
+});
+
+$('.ratingForm label').hover(function() {
+	var	value = ($('input[name=rating]:hover', '.ratingForm').val());
+	setActiveStars(value);
+}, function() {
+	setActiveStars(myPoint);
+});
+
+function setActiveStars(starCount) {
+	for (var i = 0; i <= 5; i++) {
+		var starFilename = i <= starCount ? 'star_pink.png' : 'star_grey.png';
+		$('label[for=star' + i + ']').css('backgroundImage', 'url("img/' + starFilename + '")');
+	}
+}
+
 window.onload = displayPortion(pageId);
-
-var portions;
-var isRated = false;
-
-$('#votes').text(getLocalStorage("key2"));
-$('#average').text(getLocalStorage("key3"));
 
 function changePortion() {
 	portions = document.getElementById("quantity").value;
@@ -320,112 +403,6 @@ function milkTk() {
 function kakaoTk() {
 	document.getElementById("kakao_tk").innerHTML = 2 * portions + " msk kakao";
 }
-
-var getResultUrl = "";
-
-$(".ratingForm input").click(function(){
-	var id = this.id;
-	var apiKey = "";
-    var bakegoods = "";
-
-	if (pageId == "page1") {
-		apiKey = "984d3fec6c2e1f94";
-		bakegoods = "creme_brulee";
-		console.log("this is cb");
-
-	} else if (pageId == "page2") {
-		apiKey = "adcd44aec6944dff";
-		bakegoods = "scones";
-		console.log("this is scones");
-
-	} else if (pageId == "page3") {
-		apiKey = "939da50dc8380768";
-		bakegoods = "cronut";
-		console.log("this is cronut");
-
-	} else if (pageId == "page4") {
-		apiKey = "0f69fc1a7bf82398";
-		bakegoods = "varmlandstarta";
-		console.log("this is vt");
-
-    } else if (pageId == "page5") {
-		apiKey = "80f4dcc92ab360d3";
-		bakegoods = "tigercake";
-		console.log("this is tiger cake");
-	}
-
-    getResultUrl = "https://edu.oscarb.se/sjk15/api/recipe/?api_key=" + apiKey + "&recipe=" + bakegoods;
-});
-
-console.log(getResultUrl);
-
-// fetch rating result
-$('.ratingForm input').click(function() {
-
-	if(!isRated) {
-		$('#votes').html('<img src="img/loader.gif">');
-		$('#average').html('<img src="img/loader.gif">');
-		console.log($(this).attr("id"));
-
-		$.ajax({
-			method: "GET",
-			url: getResultUrl,
-			success: function(data) {
-				console.log(JSON.stringify(data));
-				$('#votes').text(data.votes);
-				$('#average').text(data.rating.toFixed(1));
-				setLocalStorage("key2", data.votes);
-				setLocalStorage("key3", data.rating.toFixed(1));
-			},
-			error: function(jqXHR, textStatus, errorThrown) {
-			  console.log(textStatus, errorThrown);
-			}
-		});
-	}
-});
-
-$('.ratingForm input')
-
-// rate
-var myPoint = 0;
-$('.ratingForm input').click(function() {
-	if(!isRated) {
-		myPoint = ($('input[name=rating]:checked', '.ratingForm').val());
-		$(this).next().slideUp();
-		$(this).next().slideDown();
-		console.log("this element: " + this);
-
-		$.ajax({
-			method: "GET",
-			url: getResultUrl + "&rating=" + myPoint,
-			success: function(data) {
-				console.log(JSON.stringify(data));
-				console.log("status: " + data.status);
-				$('#myRating').text(myPoint);
-				$(':radio:not(:checked)').attr('disabled', true);
-				isRated = true;
-			},
-			error: function(jqXHR, textStatus, errorThrown) {
-			  console.log(textStatus, errorThrown);
-			}
-		});
-	}
-});
-
-$('.ratingForm label').hover(function() {
-	if (!isRated) {
-		var	value = ($('input[name=rating]:hover', '.ratingForm').val());
-		var i = 0;
-		while (i <= value) {
-			$('label[for=star' + i + ']').css('backgroundImage', "url('img/star_pink.png')");
-			i++;
-		}
-	}
-}, function() {
-	if (!isRated) {
-		$('.ratingForm label').css('backgroundImage', "url('img/star_grey.png')");
-	}
-});
 
 function getLocalStorage(key) {
 	if(typeof(window.localStorage) != 'undefined'){
