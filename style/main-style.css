@@ -740,6 +740,24 @@ footer {
 }
 
 
+.boxed {
+    background-color: white;
+    font-style: italic;
+}
+.TR{
+    border: 2px solid #fff;
+    font-style: italic;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 1% auto;
+    padding: 0rem;
+    text-align: center;
+    text-shadow: 1px 1px 0 #777;
+    align-self: center;
+}
+
+
 
 
 

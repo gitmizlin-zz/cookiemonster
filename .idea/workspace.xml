@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7853e2d2-8161-4a85-aea8-1e34ff00fffd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/receptsidan-logo.png" afterPath="$PROJECT_DIR$/img/receptsidan-logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/main-style.css" afterPath="$PROJECT_DIR$/style/main-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/tipsrad-style.css" afterPath="$PROJECT_DIR$/style/tipsrad-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tipsrad.html" afterPath="$PROJECT_DIR$/tipsrad.html" />
     </list>
     <ignored path="cookiemonster.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,22 +51,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tigercake.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tigercake.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tigercake.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5008157">
-              <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+            <state vertical-scroll-proportion="-10.666667">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="varmlandstarta.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/varmlandstarta.html">
+      <file leaf-file-name="tipsrad.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tipsrad.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0">
-              <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-              <folding />
+            <state vertical-scroll-proportion="-1.637931">
+              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#dd#1;n#dl#0;n#section#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#3;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#0;n#a#0;n#p#0;n#div#0;n#div#4;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#4;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,45 +79,25 @@
       <file leaf-file-name="main-style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/main-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.83871">
-              <caret line="740" column="0" selection-start-line="689" selection-start-column="0" selection-end-line="740" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="758" column="0" selection-start-line="758" selection-start-column="0" selection-end-line="758" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recipe-style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/recipe-style.css">
+      <file leaf-file-name="tipsrad-style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style/tipsrad-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-56.903225">
-              <caret line="98" column="1" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.94375">
+              <caret line="667" column="1" selection-start-line="667" selection-start-column="1" selection-end-line="667" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="creme_brulee.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/creme_brulee.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cronut.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cronut.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0">
-              <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scones.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scones.html">
+      <file leaf-file-name="varmlandstarta.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/varmlandstarta.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-4.0">
               <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
@@ -172,19 +159,20 @@
         <option value="$PROJECT_DIR$/receptsajt/scones.html" />
         <option value="$PROJECT_DIR$/receptsajt/tipsrad.html" />
         <option value="$PROJECT_DIR$/receptsajt/varmlandstarta.html" />
-        <option value="$PROJECT_DIR$/tipsrad.html" />
         <option value="$PROJECT_DIR$/include/aside.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/include/header.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/style/main-style.css" />
         <option value="$PROJECT_DIR$/style/recipe-style.css" />
         <option value="$PROJECT_DIR$/creme_brulee.html" />
         <option value="$PROJECT_DIR$/cronut.html" />
         <option value="$PROJECT_DIR$/scones.html" />
         <option value="$PROJECT_DIR$/tigercake.html" />
         <option value="$PROJECT_DIR$/varmlandstarta.html" />
+        <option value="$PROJECT_DIR$/style/main-style.css" />
+        <option value="$PROJECT_DIR$/tipsrad.html" />
+        <option value="$PROJECT_DIR$/style/tipsrad-style.css" />
       </list>
     </option>
   </component>
@@ -234,6 +222,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cookiemonster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cookiemonster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cookiemonster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -512,12 +514,6 @@
       <created>1456921379106</created>
       <option name="number" value="Default" />
       <updated>1456921379106</updated>
-    </task>
-    <task id="LOCAL-00001" summary="contact page added. &#10;Rulltarta.jpg name changed to rulltarta.jpg">
-      <created>1456922153200</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1456922153200</updated>
     </task>
     <task id="LOCAL-00002" summary="contact page added.">
       <created>1456923367257</created>
@@ -807,12 +803,18 @@
       <option name="project" value="LOCAL" />
       <updated>1457617813132</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="logo replaced">
+      <created>1457619235921</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1457619235921</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -823,7 +825,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2567256" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2567256" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -876,7 +878,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creme brulee recipe page added. &#10;portions works. &#10;stars not working yet" />
     <MESSAGE value="header fixed" />
     <MESSAGE value="scones page added" />
     <MESSAGE value="header and footer included to all the files from external html files except for tips&amp;råd page" />
@@ -901,7 +902,8 @@
     <MESSAGE value="js files added (sorting)" />
     <MESSAGE value="test" />
     <MESSAGE value="recipe-style.css created" />
-    <option name="LAST_COMMIT_MESSAGE" value="recipe-style.css created" />
+    <MESSAGE value="logo replaced" />
+    <option name="LAST_COMMIT_MESSAGE" value="logo replaced" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1101,14 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/tipsrad-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="274" column="9" selection-start-line="274" selection-start-column="9" selection-end-line="274" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/vlt_recipe_page/vlt.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1143,14 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tipsrad.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2055465">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,14 +1192,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/main-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.83871">
-          <caret line="740" column="0" selection-start-line="689" selection-start-column="0" selection-end-line="740" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/recipe-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-56.903225">
@@ -1256,8 +1234,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tigercake.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5008157">
-          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+        <state vertical-scroll-proportion="-10.666667">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/main-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="758" column="0" selection-start-line="758" selection-start-column="0" selection-end-line="758" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tipsrad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.637931">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#dd#1;n#dl#0;n#section#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#3;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#a#0;n#p#0;n#div#0;n#div#4;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#4;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/tipsrad-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94375">
+          <caret line="667" column="1" selection-start-line="667" selection-start-column="1" selection-end-line="667" selection-end-column="1" />
           <folding />
         </state>
       </provider>
