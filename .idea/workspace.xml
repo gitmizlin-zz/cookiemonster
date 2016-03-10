@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7853e2d2-8161-4a85-aea8-1e34ff00fffd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/main-style.css" afterPath="$PROJECT_DIR$/style/main-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/tipsrad-style.css" afterPath="$PROJECT_DIR$/style/tipsrad-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tipsrad.html" afterPath="$PROJECT_DIR$/tipsrad.html" />
     </list>
     <ignored path="cookiemonster.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -515,12 +512,6 @@
       <option name="number" value="Default" />
       <updated>1456921379106</updated>
     </task>
-    <task id="LOCAL-00002" summary="contact page added.">
-      <created>1456923367257</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1456923367257</updated>
-    </task>
     <task id="LOCAL-00003" summary="script.js added">
       <created>1456924397798</created>
       <option name="number" value="00003" />
@@ -809,7 +800,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457619235921</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="tips &amp; råd html updated. css added">
+      <created>1457620229603</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1457620229603</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -878,7 +875,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="header fixed" />
     <MESSAGE value="scones page added" />
     <MESSAGE value="header and footer included to all the files from external html files except for tips&amp;råd page" />
     <MESSAGE value="cronut.html added" />
@@ -903,7 +899,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="recipe-style.css created" />
     <MESSAGE value="logo replaced" />
-    <option name="LAST_COMMIT_MESSAGE" value="logo replaced" />
+    <MESSAGE value="tips &amp; råd html updated. css added" />
+    <option name="LAST_COMMIT_MESSAGE" value="tips &amp; råd html updated. css added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
