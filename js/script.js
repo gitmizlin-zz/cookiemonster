@@ -456,3 +456,24 @@ $("#recepi-of-the-day-img").attr("href", hrefSource);
 document.getElementById("recepi-of-the-day-img").src = imgSource; 
 document.getElementById("dailyLink").href = hrefSource;
 }
+
+function myFunction1() {
+	document.getElementById("myDIVCremeBrulee").style.position = "absolute";
+	document.getElementById("myDIVCremeBrulee").style.visibility = "visible";
+}
+function myFunction2() {
+	document.getElementById("myDIVscones").style.position = "absolute";
+	document.getElementById("myDIVscones").style.visibility = "visible";
+}
+function myFunction3() {
+	document.getElementById("myDIVCronut").style.position = "absolute";
+	document.getElementById("myDIVCronut").style.visibility = "visible";
+}
+function myFunction4() {
+	document.getElementById("myDIVTigerKaka").style.position = "absolute";
+	document.getElementById("myDIVTigerKaka").style.visibility = "visible";
+}
+function myFunction5() {
+	document.getElementById("myDIVVarmland-Cake").style.position = "absolute";
+	document.getElementById("myDIVVarmland-Cake").style.visibility = "visible";
+}
