@@ -450,7 +450,7 @@ console.log(dailyImage[dailyNr].href);
 var imgSource = dailyImage[dailyNr].src;
 var hrefSource = dailyImage[dailyNr].href;
 
-document.getElementById("recepi-of-the-day-img").src = imgSource; 
+$("#recepi-of-the-day-img").attr("src", imgSource);
 document.getElementById("dailyLink").href = hrefSource;
 }
 
