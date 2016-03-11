@@ -120,7 +120,7 @@ function displayPortion(pageId) {
 	} else {
 		text += "s";
 	}
-	document.getElementById("selectedPortion").innerHTML = "for " + portions + " " + text;
+	document.getElementById("select_a_portion").innerHTML = "for " + portions + " " + text;
 
 	if (pageId == "page1") {
 		eggYolk();
