@@ -120,7 +120,7 @@ function displayPortion(pageId) {
 	} else {
 		text += "s";
 	}
-	document.getElementById("select_a_portion").innerHTML = "for " + portions + " " + text;
+	document.getElementById("selectedPortion").innerHTML = "for " + portions + " " + text;
 
 	if (pageId == "page1") {
 		eggYolk();
@@ -441,10 +441,10 @@ var day = Math.floor(today/8.64e7);
 var dailyNr = day % dailyImage.length;
 
 var imgSource = dailyImage[dailyNr].src;
-var hrefSource = dailyImage[dailyNr].href;
+var hrefLink = dailyImage[dailyNr].href;
 
 $("#recepi-of-the-day-img").attr("src", imgSource);
-$("#recepi-of-the-day-img").attr("href", hrefSource);
+$("#recepi-of-the-day-img").attr("href", hrefLink);
 
-document.getElementbyId("dailyLink").href = hrefSource;
+document.getElementbyId("dailyLink").href = hrefLink;
 }
