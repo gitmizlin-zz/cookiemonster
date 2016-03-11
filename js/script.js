@@ -445,4 +445,6 @@ var hrefSource = dailyImage[dailyNr].href;
 
 $("#recepi-of-the-day-img").attr("src", imgSource);
 $("#recepi-of-the-day-img").attr("href", hrefSource);
+
+document.getElementbyId("dailyLink").href = hrefSource;
 }
