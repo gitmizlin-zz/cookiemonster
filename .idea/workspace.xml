@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7853e2d2-8161-4a85-aea8-1e34ff00fffd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/main-style.css" afterPath="$PROJECT_DIR$/style/main-style.css" />
     </list>
     <ignored path="cookiemonster.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -403,12 +402,6 @@
       <option name="number" value="Default" />
       <updated>1456921379106</updated>
     </task>
-    <task id="LOCAL-00004" summary="script.js added. &#10;contact form done. (no sending info, only validation of entered data)">
-      <created>1456927513136</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1456927513136</updated>
-    </task>
     <task id="LOCAL-00005" summary="script.js added. &#10;contact form done. (no sending info, only validation of entered data)">
       <created>1456927714331</created>
       <option name="number" value="00005" />
@@ -697,7 +690,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457715321827</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="tips &amp; råd html updated. css added">
+      <created>1457716142618</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1457716142618</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
