@@ -438,7 +438,14 @@ dailyImage[4] = {src:"img/tigercake_recipe_page/tigerkaka.jpg", caption:"Tigerka
 var today = new Date();
 var day = Math.floor(today/8.64e7);
 
+console.log("today is: " + today);
+console.log("day is: " + day);
+
 var dailyNr = day % dailyImage.length;
+
+console.log("dailyNr is: " + dailyNr);
+console.log(dailyImage[dailyNr].src);
+console.log(dailyImage[dailyNr].href); 
 
 var imgSource = dailyImage[dailyNr].src;
 var hrefLink = dailyImage[dailyNr].href;
