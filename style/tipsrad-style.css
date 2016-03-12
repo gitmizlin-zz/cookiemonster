@@ -168,68 +168,78 @@ dt{
 }
 
 #myDIVCremeBrulee {
-    border: 1px solid black;
-    background-color: lightblue;
-    opacity: 1;
-    width: 70%;
+    background-color: #fdfdfd;
+    border: 3px solid #ddd;
+    border-radius: 10px;
     height: 720px;
-    position:absolute;
+    left: 10%;
+    opacity: 1;
+    padding: 10px;
+    position: absolute;
     top: 20px;
-    left:10%;
     visibility: hidden;
+    width: 70%;
     z-index: 100;
 }
 
 #myDIVscones {
-    border: 1px solid black;
-    background-color: lightblue;
-    opacity: 1;
-    position: absolute;
-    left:10%;
-    width: 70%;
+    background-color: #fdfdfd;
+    border: 3px solid #ddd;
+    border-radius: 10px;
     height: 600px;
+    left: 10%;
+    opacity: 1;
+    padding: 10px;
+    position: absolute;
     top: 20px;
     visibility: hidden;
+    width: 70%;
     z-index: 100;
 }
 
 
 #myDIVCronut {
-    border: 1px solid black;
-    background-color: lightblue;
-    opacity: 1;
-    width: 80%;
+    background-color: #fdfdfd;
+    border: 3px solid #ddd;
+    border-radius: 10px;
     height: 800px;
+    left: 10%;
+    opacity: 1;
+    padding: 10px;
     position: absolute;
-    left:10%;
     top: 20px;
     visibility: hidden;
+    width: 70%;
     z-index: 100;
 }
 
 #myDIVTigerKaka {
-    border: 1px solid black;
-    background-color: lightblue;
-    opacity: 1;
-    position: absolute;
-    left:10%;
-    width: 80%;
+    background-color: #fdfdfd;
+    border: 3px solid #ddd;
+    border-radius: 10px;
     height: 600px;
+    left: 10%;
+    opacity: 1;
+    padding: 10px;
+    position: absolute;
     top: 20px;
     visibility: hidden;
+    width: 70%;
     z-index: 100;
 }
 
 #myDIVVarmland-Cake {
-    border: 1px solid black;
-    background-color: lightblue;
-    opacity: 1;
-    width: 80%;
+    background-color: #fdfdfd;
+    border: 3px solid #ddd;
+    border-radius: 10px;
     height: 270px;
+    left: 10%;
+    opacity: 1;
+    padding: 10px;
     position: absolute;
     top: 20px;
-    left:10%;
     visibility: hidden;
+    width: 70%;
     z-index: 100;
 }
 #CremeBrulee, #scones, #cronut, #tigerKaka, #varmland-Cake{
