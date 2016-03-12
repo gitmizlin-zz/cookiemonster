@@ -117,9 +117,9 @@ figure  {
     margin: 10px;
 }
 dt{
-    color: #57c7b3;
+    color: #000;
     font-family: "AkkuratRegular",Arial,Helvetica,sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     padding:2%;
 }
 
@@ -128,7 +128,7 @@ dt{
     border-radius: 14px;
     margin: 0 0 30px 0;
     padding: 4px;
-    margin-top:10px;
+    margin-top:20px;
 }
 
 .info-box h1,h3 {
