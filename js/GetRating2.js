@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 //   IKINCI OLARAK EKLEMEK ISTEDIGIM URL LER
 //461907d1493ba089
 //Visa receptbetyg     GET https://edu.oscarb.se/sjk15/api/recipe/?api_key=461907d1493ba089&recipe=tiger_kaka
@@ -184,4 +178,45 @@ $('.kate a').click(function () {
 
 $(document).ready( function(){
 	showVotesKate();
+});
+
+///////////////////////////////////////////TigerKake////////////////////////////////////////////////
+
+function showVotesTiger() {
+	$("#messageDivT").html("<b>Hämtar röster... Var god vänta...</b>");
+	$.ajax({
+		method: "GET",
+		url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=80f4dcc92ab360d3&recipe=tigercake",
+		success: function (data) {
+			$('#ratingT').text(data.rating);
+			$('#voteT').text(data.votes);
+			$('#recipeT').text(data.recipe);
+			$("#messageDivT").empty();
+		},
+	});
+}
+
+
+$('.tiger a').click(function () {
+	// Kod som körs när man klickar på knappen
+	var rateValueT = $(this).text();
+	var urlT = "https://edu.oscarb.se/sjk15/api/recipe/?api_key=80f4dcc92ab360d3&recipe=tigercake";
+	url = "https://edu.oscarb.se/sjk15/api/recipe/?api_key=80f4dcc92ab360d3&recipe=tigercake=5";
+	var paramsT = "recipe=cronut&rating=" + rateValueT;
+	paramsT = "";
+	$("#messageDivT").html("<b>Skickar din röst... Var god vänta...</b>");
+
+	$.ajax({
+		method: "GET",
+		data: { user_rating: rateValueT },
+		url: url + paramsk,
+		success: function (data) {
+			showVotesTiger();
+			$("#messageDivT").empty();
+		}
+	});
+});
+
+$(document).ready( function(){
+	showVotesTiger();
 });

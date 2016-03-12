@@ -9,7 +9,7 @@
 
 .ratingScones a:active, .Mi a:active, .Benjamin a:active,  .kate a:active,
 .ratingScones a:focus, .Mi a:focus, .Benjamin a:focus, .kate a:focus,
-.ratingScones a.checked, .Mi  a.checked, .Benjamin a.checked, .kate a checked {
+.ratingScones a.checked, .Mi  a.checked, .Benjamin a.checked, .kate a.checked {
 	background: url('http://i.imgur.com/JZhpcoG.png') repeat-x;
 }
 
