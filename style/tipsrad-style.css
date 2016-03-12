@@ -124,7 +124,7 @@ dt{
 }
 
 
-#close1 #close2 #close3 #close4 #close5{
+#close1, #close2, #close3, #close4, #close5{
     float:right;
     display:inline-block;
     padding:2px 5px;
