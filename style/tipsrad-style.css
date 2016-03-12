@@ -123,13 +123,34 @@ dt{
     padding:2%;
 }
 
+.info-box {
+    background-color: #57c7b3;
+    border-radius: 14px;
+    margin: 0 0 30px 0;
+    padding: 4px;
+    margin-top:10px;
+}
+
+.info-box h1,h3 {
+    border: 2px solid #fff;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    text-shadow: 1px 1px 0 #777;
+}
+
 
 #close1, #close2, #close3, #close4, #close5{
     float:right;
     display:inline-block;
     padding:1px 7px;
     background:#fff;
-    border:1px solid #57c7b3;
+    border:2px solid #57c7b3;
     color:#000;
     border-radius: 20px;
     margin-top:-20px;
