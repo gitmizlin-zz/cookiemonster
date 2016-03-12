@@ -546,12 +546,6 @@
       <option name="number" value="Default" />
       <updated>1456921379106</updated>
     </task>
-    <task id="LOCAL-00011" summary="scones page added">
-      <created>1457017924397</created>
-      <option name="number" value="00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1457017924397</updated>
-    </task>
     <task id="LOCAL-00012" summary="header and footer included to all the files from external html files except for tips&amp;råd page">
       <created>1457084809992</created>
       <option name="number" value="00012" />
@@ -840,7 +834,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457798829743</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="tips &amp; råd html updated. css added">
+      <created>1457798920504</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1457798920504</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="ToolWindowManager">
