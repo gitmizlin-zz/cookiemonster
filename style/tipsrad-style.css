@@ -127,10 +127,13 @@ dt{
 #close1, #close2, #close3, #close4, #close5{
     float:right;
     display:inline-block;
-    padding:2px 5px;
+    padding:1px 7px;
     background:#fff;
-    border:1px solid #ddd;
-    color:#57c7b3;
+    border:1px solid #57c7b3;
+    color:#000;
+    border-radius: 20px;
+    margin-top:-20px;
+    font-family: "AkkuratRegular",Arial,Helvetica,sans-serif;
 }
 
 .list-title {
