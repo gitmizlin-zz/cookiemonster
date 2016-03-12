@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7853e2d2-8161-4a85-aea8-1e34ff00fffd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/GetRating2.js" afterPath="$PROJECT_DIR$/js/GetRating2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/main-style.css" afterPath="$PROJECT_DIR$/style/main-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/stars.css" afterPath="$PROJECT_DIR$/style/stars.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tipsrad.html" afterPath="$PROJECT_DIR$/tipsrad.html" />
     </list>
     <ignored path="cookiemonster.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -551,12 +546,6 @@
       <option name="number" value="Default" />
       <updated>1456921379106</updated>
     </task>
-    <task id="LOCAL-00010" summary="scones page added">
-      <created>1457017628009</created>
-      <option name="number" value="00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1457017628009</updated>
-    </task>
     <task id="LOCAL-00011" summary="scones page added">
       <created>1457017924397</created>
       <option name="number" value="00011" />
@@ -845,7 +834,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457793629569</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="tips &amp; råd html updated. css added">
+      <created>1457798829743</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1457798829743</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
