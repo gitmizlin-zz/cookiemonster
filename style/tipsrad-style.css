@@ -124,39 +124,13 @@ dt{
 }
 
 
-#close1 {
-    float:left;
+#close1 #close2 #close3 #close4 #close5{
+    float:right;
     display:inline-block;
     padding:2px 5px;
-    background:#ccc;
-}
-
-
-#close2 {
-    float:left;
-    display:inline-block;
-    padding:2px 5px;
-    background:#ccc;
-}
-
-#close3 {
-    float:left;
-    display:inline-block;
-    padding:2px 5px;
-    background:#ccc;
-}
-#close4 {
-    float:left;
-    display:inline-block;
-    padding:2px 5px;
-    background:#ccc;
-}
-
-#close5 {
-    float:left;
-    display:inline-block;
-    padding:2px 5px;
-    background:#ccc;
+    background:#fff;
+    border:1px solid #ddd;
+    color:#57c7b3;
 }
 
 .list-title {
