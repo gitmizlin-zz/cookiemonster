@@ -320,4 +320,11 @@ main {
     padding: 30px 20px 120px;
 }
 
+section {
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    width: 70%;
+}
+
 }
