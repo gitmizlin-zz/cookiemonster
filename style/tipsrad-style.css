@@ -117,8 +117,8 @@ figure  {
     margin: 10px;
 }
 dt{
-    color: darkblue;
-    font-family:"SansSerif";
+    color: #57c7b3;
+    font-family: "AkkuratRegular",Arial,Helvetica,sans-serif;
     font-size: 20px;
     padding:2%;
 }
