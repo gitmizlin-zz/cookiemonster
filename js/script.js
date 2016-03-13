@@ -422,7 +422,7 @@ function setLocalStorage(key, value) {
 	}
 }
 
-window.onload = dailyMenu();
+
 
 
 function dailyMenu(){
