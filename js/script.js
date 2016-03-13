@@ -423,7 +423,7 @@ function setLocalStorage(key, value) {
 }
 
 
-
+dailyMenu();
 
 function dailyMenu(){
 
