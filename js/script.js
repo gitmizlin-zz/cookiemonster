@@ -425,8 +425,6 @@ function setLocalStorage(key, value) {
 }
 
 
-dailyMenu();
-
 function dailyMenu(){
 
 var dailyImage = [];
@@ -459,7 +457,6 @@ document.getElementById("recepi-of-the-day-img").src = imgSource;
 document.getElementById("dailyLink").href = hrefSource;
 }
 
-window.onload = dailyMenu();
 
 function myFunction1() {
 	document.getElementById("myDIVCremeBrulee").style.position = "absolute";
