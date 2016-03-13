@@ -3,6 +3,8 @@ var myUrl = "";
 var portions;
 var pageId = $("body").attr("id");
 
+dailyMenu();
+
 $(document).ready(function(){
 	$.get("include/header.html", function(data) {
 		$("#header").html(data);
