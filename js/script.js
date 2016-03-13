@@ -19,6 +19,8 @@ $(document).ready(function(){
 	});
 });
 
+dailyMenu();
+
 function getUrl() {
 	console.log('page id is ' + pageId);
 	var apiKey = ""
